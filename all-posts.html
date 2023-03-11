@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--bootstrap 4 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--swiper-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <!--css & font-->
+    <link rel="stylesheet" href="css/css.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+<!--two deference whit main header
+1.font of top txt
+2.bottom of that
+-->
+<!--header-->
+<header class="position-relative">
+    <!--top menu-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="top-menu-box w-100 d-flex mt-3">
+                    <!--left-->
+                    <div class="hamburger d-lg-none mr-3 cursor-pointer">
+                        <svg width="28" class="text-biscay-700 dark:text-white" height="28" viewBox="0 0 24 18"
+                             fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2.5H21.5M2 9H21.5M2 15.5H21.5" stroke="currentColor" stroke-width="3.65625"
+                                  stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <div class="left-menu mr-auto mr-lg-0">
+                        <div class="d-flex">
+                            <div class="logo-parent">
+                                <a href="">
+                                    <img src="img/14.png"
+                                         class="" alt="">
+                                </a>
+                            </div>
+                            <div class="links-parent">
+                                <!--close btn-->
+                                <div class="d-lg-none text-left ml-3 mt-3">
+                                    <svg class="close-btn cursor-pointer" width="18" height="18" viewBox="0 0 18 18"
+                                         fill="none">
+                                        <path d="M16 2L9 9M9 9L2 16M9 9L16 16M9 9L2 2" stroke="#353F53"
+                                              stroke-width="2.88235" stroke-linecap="round"
+                                              stroke-linejoin="round"></path>
+                                    </svg>
+                                </div>
+                                <!--logo-->
+                                <div class="text-center d-lg-none mt-2 logo-parent">
+                                    <img src="img/14.png"
+                                         width="70" height="70" alt="">
+                                </div>
+                                <!--search box-->
+                                <div class="parent-sm-search mx-3 my-3 d-lg-none">
+                                    <form action="" class="my-3">
+                                        <input type="text"
+                                               class="search-sm-inp border-radios-10 border-0 w-100 fs15 pr-2"
+                                               placeholder="دنبال چی میگردی؟">
+                                    </form>
+                                </div>
+                                <nav>
+                                    <ul>
+                                        <li><a href="">بیماری</a></li>
+                                        <li><a href="">بیماری</a></li>
+                                        <li>
+                                            <a href="">بیماری</a>
+                                            <ul>
+                                                <li><a href="">زیر منو</a></li>
+                                                <li><a href="">زیر منو</a></li>
+                                                <li><a href="">زیر منو</a></li>
+                                                <li><a href="">زیر منو</a></li>
+                                                <li><a href="">زیر منو</a></li>
+                                                <li><a href="">زیر منو</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="">بیماری</a>
+                                            <ul>
+                                                <li><a href="">زیر منو</a></li>
+                                                <li><a href="">زیر منو</a></li>
+                                                <li><a href="">زیر منو</a></li>
+                                                <li><a href="">زیر منو</a></li>
+                                                <li><a href="">زیر منو</a></li>
+                                                <li><a href="">زیر منو</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="">بیماری</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <!--right-->
+                    <div class="mr-auto mt-4-5 ml-4">
+                        <!--search-->
+                        <svg class="ml-3 -ver-7 cursor-pointer text-secondary d-none d-lg-inline" width="20"
+                             height="20"
+                             viewBox="0 0 16 17" fill="none">
+                            <circle cx="7.82495" cy="7.82492" r="6.74142" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round"></circle>
+                            <path d="M12.5137 12.8638L15.1568 15.4999" stroke="currentColor" stroke-width="1.5"
+                                  stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+
+                        <a href="" class="fs16 register-login-btn border-radios-10 text-white">
+                            <span class="d-none d-lg-inline">ورود|عضویت</span>
+                            <svg class="-ver-4 ml-1" width="23" height="15" viewBox="0 0 23 15" fill="#fff">
+                                <path d="M1.16786 6.02753C1.23926 5.95544 1.50598 5.65076 1.75653 5.39776C3.21811 3.81313 7.03437 1.22195 9.03073 0.428959C9.33382 0.302461 10.1003 0.0331419 10.5112 0.0140991C10.9032 0.0140991 11.2776 0.105232 11.6346 0.284778C12.0805 0.536415 12.4361 0.933592 12.6328 1.4015C12.7581 1.72523 12.9548 2.69777 12.9548 2.71545C13.1501 3.77776 13.2565 5.50521 13.2565 7.41493C13.2565 9.23215 13.1501 10.8889 12.9898 11.9689C12.9723 11.9879 12.7756 13.1944 12.5614 13.6079C12.1694 14.3642 11.4029 14.8321 10.5826 14.8321H10.5112C9.97638 14.8144 8.85292 14.3451 8.85292 14.3288C6.96297 13.5358 3.23697 11.0698 1.73902 9.43074C1.73902 9.43074 1.31604 9.00908 1.13284 8.74656C0.84726 8.36843 0.70447 7.90052 0.70447 7.43261C0.70447 6.9103 0.864772 6.42471 1.16786 6.02753"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<!--new article-->
+<div class="w-100 position-relative mt-5">
+    <img src="img/download10.png" class="position-absolute float-img6 rotation-animation up-down-animation" alt="">
+    <img src="img/download5.png" class="position-absolute float-img23 up-down-animation" alt="">
+    <img src="img/download9.png" class="position-absolute float-img5 up-down-animation" alt="">
+
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-12 mb-2">
+                <span class="fs28 font-weight-bold text-Purple-dark">
+                    <img src="img/readit.png" width="60" alt="">
+                    آرشیو مقالات
+                </span>
+            </div>
+            <div class="col-12 mt-4">
+                <div class="box-select-type-p p-desc p-3 border-radios-10">
+                    <button class="border-0 cursor-pointer border-radios-10 btn-for-t">
+                        <svg class="-ver-4 ml-2 text-white" width="17" height="20" viewBox="0 0 17 20" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M5.42574 14.39H10.8119C11.2178 14.39 11.5545 14.05 11.5545 13.64C11.5545 13.23 11.2178 12.9 10.8119 12.9H5.42574C5.0198 12.9 4.68317 13.23 4.68317 13.64C4.68317 14.05 5.0198 14.39 5.42574 14.39ZM8.77228 7.9H5.42574C5.0198 7.9 4.68317 8.24 4.68317 8.65C4.68317 9.06 5.0198 9.39 5.42574 9.39H8.77228C9.17822 9.39 9.51485 9.06 9.51485 8.65C9.51485 8.24 9.17822 7.9 8.77228 7.9ZM15.8381 7.02561C16.0708 7.02292 16.3242 7.02 16.5545 7.02C16.802 7.02 17 7.22 17 7.47V15.51C17 17.99 15.0099 20 12.5545 20H4.67327C2.09901 20 0 17.89 0 15.29V4.51C0 2.03 2 0 4.46535 0H9.75247C10.0099 0 10.2079 0.21 10.2079 0.46V3.68C10.2079 5.51 11.703 7.01 13.5149 7.02C13.9381 7.02 14.3112 7.02316 14.6377 7.02593C14.8917 7.02809 15.1175 7.03 15.3168 7.03C15.4578 7.03 15.6405 7.02789 15.8381 7.02561ZM16.1111 5.566C15.2972 5.569 14.3378 5.566 13.6477 5.559C12.5527 5.559 11.6507 4.648 11.6507 3.542V0.906C11.6507 0.475 12.1685 0.261 12.4646 0.572C13.0004 1.13476 13.7368 1.90834 14.4699 2.67837C15.2009 3.44632 15.9286 4.21074 16.4507 4.759C16.7398 5.062 16.5279 5.565 16.1111 5.566Z"></path>
+                        </svg>
+                        جدیدترین
+                        <span class="fs14">191</span>
+                    </button>
+                    <button class="border-0 cursor-pointer border-radios-10 mr-md-4 text-secondary bg-transparent out-l-n mt-4 my-md-0">
+                        <svg class="-ver-4 ml-2" width="20" height="20" fill="none" viewBox="0 0 13 11"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path class="stroke-current transition duration-200 text-red-450 group-hover:text-white"
+                                  d="M3.95035 1.229C4.81955 1.229 5.61243 1.66166 6.21284 2.15457C6.81326 1.66166 7.60614 1.229 8.47534 1.229C10.3497 1.229 11.8691 2.62275 11.8691 4.34192C11.8691 7.80824 7.92382 9.82702 6.62321 10.3984C6.36123 10.5134 6.06445 10.5134 5.80248 10.3984C4.50187 9.827 0.556602 7.80816 0.556602 4.34184C0.556602 2.62267 2.07603 1.229 3.95035 1.229Z"
+                                  stroke="currentColor" stroke-width="0.761705"></path>
+                        </svg>
+                        محبوب ترین
+                        <span class="fs14">191</span>
+                    </button>
+                    <button class="border-radios-10 cursor-pointer border-0 mr-md-4 text-secondary bg-transparent out-l-n mt-4 my-md-0">
+                        <svg class="-ver-4 ml-2" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor"
+                                  d="M11.4498 8.3782C12.6463 9.099 13.2446 9.4594 13.2446 10C13.2446 10.5406 12.6463 10.901 11.4498 11.6218L10.1036 12.4327C8.90703 13.1535 8.30873 13.5139 7.86001 13.2436C7.4113 12.9733 7.4113 12.2525 7.4113 10.8109V9.1891C7.4113 7.74751 7.4113 7.02671 7.86001 6.75641C8.30873 6.48611 8.90702 6.84651 10.1036 7.56731L11.4498 8.3782Z"></path>
+                            <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M10 20C1.765 20 0 18.235 0 10C0 1.765 1.765 0 10 0C18.235 0 20 1.765 20 10C20 18.235 18.235 20 10 20ZM12.3932 12.9992C12.9177 12.6835 13.4613 12.3563 13.859 12.0269C14.2997 11.6619 14.9113 11.0118 14.9113 10C14.9113 8.98824 14.2997 8.33809 13.859 7.97312C13.4613 7.64368 12.9178 7.31652 12.3933 7.00085L10.8787 6.08847C10.3559 5.77327 9.81146 5.44505 9.33646 5.24928C8.82012 5.03647 7.91194 4.77944 7.00002 5.32876C6.11465 5.86209 5.89412 6.75913 5.81734 7.29873C5.74423 7.81251 5.74442 8.45685 5.74461 9.09275V10.9072C5.74442 11.5431 5.74423 12.1875 5.81734 12.7013C5.89412 13.2409 6.11465 14.1379 7.00002 14.6712C7.91194 15.2206 8.82012 14.9635 9.33646 14.7507C9.81146 14.5549 10.3559 14.2267 10.8787 13.9115L12.3932 12.9992Z"></path>
+                        </svg>
+                        پربازدیدترین
+                        <span class="fs14">191</span>
+                    </button>
+
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-4">
+                <div class="parent-mv-box bg-white border-radios-10 p-4">
+                    <a href="">
+                        <img src="img/asxasx.jpg" class="w-100 border-radios-10 object-cover" alt="">
+                    </a>
+                    <!--date & category-->
+                    <div class="mt-3">
+                        <svg class="text-orange-dark -ver-4" width="18" height="18" viewBox="0 0 24 24"
+                             fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M12.1792 23.9333C2.54046 23.9333 0.474609 21.8674 0.474609 12.2287C0.474609 2.59002 2.54046 0.52417 12.1792 0.52417C21.8178 0.52417 23.8837 2.59002 23.8837 12.2287C23.8837 21.8674 21.8178 23.9333 12.1792 23.9333ZM11.2038 6.37644C11.2038 5.83773 11.6405 5.40106 12.1792 5.40106C12.7178 5.40106 13.1545 5.83773 13.1545 6.37644V11.2533H18.0314C18.5701 11.2533 19.0068 11.69 19.0068 12.2287C19.0068 12.7674 18.5701 13.2041 18.0314 13.2041H12.1792C11.6405 13.2041 11.2038 12.7674 11.2038 12.2287V6.37644Z"
+                                  fill="currentColor"></path>
+                        </svg>
+                        <span class="mr-1 fs15 text-orange-dark">1401/1/2</span>
+
+                        <svg class="mr-4 text-orange-dark -ver-4" width="18" height="17" viewBox="0 0 23 22"
+                             fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M11.7915 11.0486C11.292 11.0486 10.887 11.4535 10.887 11.9531C10.887 12.4526 11.2919 12.8575 11.7915 12.8575L15.4209 12.8575C15.9205 12.8575 16.3254 12.4526 16.3254 11.9531C16.3254 11.4535 15.9205 11.0486 15.4209 11.0486L11.7915 11.0486ZM8.16228 14.6788C7.66276 14.6788 7.25781 15.0838 7.25781 15.5833C7.25781 16.0828 7.66276 16.4878 8.16228 16.4878L15.4212 16.4878C15.9207 16.4878 16.3257 16.0828 16.3257 15.5833C16.3257 15.0838 15.9207 14.6788 15.4212 14.6788L8.16228 14.6788Z"
+                                  fill="currentColor"></path>
+                            <path d="M16.3021 4.92382C15.3306 4.83267 14.2064 4.79518 12.9123 4.79518C4.92001 4.79518 3.00712 6.22507 2.07443 12.8965C1.93217 13.9141 1.84681 14.8097 1.83266 15.597M16.3021 4.92382C21.3305 5.39564 22.2667 7.30528 21.4851 12.8965C20.5524 19.568 18.6395 20.9979 10.6472 20.9979C3.87388 20.9979 1.75406 19.9709 1.83266 15.597M16.3021 4.92382C16.3021 4.92382 16.4398 4.09117 16.3021 2.99488C15.963 0.294405 4.81796 0.647123 3.63956 2.99488C1.83233 6.59543 1.83266 15.597 1.83266 15.597"
+                                  stroke="currentColor" stroke-width="1.80894" stroke-linecap="round"
+                                  stroke-linejoin="round"></path>
+                        </svg>
+                        <span class="mr-1 text-orange-dark fs15">نام دسته</span>
+                    </div>
+                    <!--title-->
+                    <h5 class="mt-3 pl-2">
+                        <a href="" class="font-weight-bold text-Purple-dark w-space lh-1-6 fs22">
+                            عنوان در این قسمت نمایش داده خوهد شد
+                        </a>
+                    </h5>
+                    <div class="text-justify fs14 pl-2">
+                        آموزش php mvc سعی دارد قدم به قدم و در قالب ساخت یک فریمورک از صفر کار با الگو mvc
+                        را به شکل
+                        کامل به شما آموزش دهد.
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-4">
+                <div class="parent-mv-box bg-white border-radios-10 p-4">
+                    <a href="">
+                        <img src="img/asxasx.jpg" class="w-100 border-radios-10 object-cover" alt="">
+                    </a>
+                    <!--date & category-->
+                    <div class="mt-3">
+                        <svg class="text-orange-dark -ver-4" width="18" height="18" viewBox="0 0 24 24"
+                             fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M12.1792 23.9333C2.54046 23.9333 0.474609 21.8674 0.474609 12.2287C0.474609 2.59002 2.54046 0.52417 12.1792 0.52417C21.8178 0.52417 23.8837 2.59002 23.8837 12.2287C23.8837 21.8674 21.8178 23.9333 12.1792 23.9333ZM11.2038 6.37644C11.2038 5.83773 11.6405 5.40106 12.1792 5.40106C12.7178 5.40106 13.1545 5.83773 13.1545 6.37644V11.2533H18.0314C18.5701 11.2533 19.0068 11.69 19.0068 12.2287C19.0068 12.7674 18.5701 13.2041 18.0314 13.2041H12.1792C11.6405 13.2041 11.2038 12.7674 11.2038 12.2287V6.37644Z"
+                                  fill="currentColor"></path>
+                        </svg>
+                        <span class="mr-1 fs15 text-orange-dark">1401/1/2</span>
+
+                        <svg class="mr-4 text-orange-dark -ver-4" width="18" height="17" viewBox="0 0 23 22"
+                             fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M11.7915 11.0486C11.292 11.0486 10.887 11.4535 10.887 11.9531C10.887 12.4526 11.2919 12.8575 11.7915 12.8575L15.4209 12.8575C15.9205 12.8575 16.3254 12.4526 16.3254 11.9531C16.3254 11.4535 15.9205 11.0486 15.4209 11.0486L11.7915 11.0486ZM8.16228 14.6788C7.66276 14.6788 7.25781 15.0838 7.25781 15.5833C7.25781 16.0828 7.66276 16.4878 8.16228 16.4878L15.4212 16.4878C15.9207 16.4878 16.3257 16.0828 16.3257 15.5833C16.3257 15.0838 15.9207 14.6788 15.4212 14.6788L8.16228 14.6788Z"
+                                  fill="currentColor"></path>
+                            <path d="M16.3021 4.92382C15.3306 4.83267 14.2064 4.79518 12.9123 4.79518C4.92001 4.79518 3.00712 6.22507 2.07443 12.8965C1.93217 13.9141 1.84681 14.8097 1.83266 15.597M16.3021 4.92382C21.3305 5.39564 22.2667 7.30528 21.4851 12.8965C20.5524 19.568 18.6395 20.9979 10.6472 20.9979C3.87388 20.9979 1.75406 19.9709 1.83266 15.597M16.3021 4.92382C16.3021 4.92382 16.4398 4.09117 16.3021 2.99488C15.963 0.294405 4.81796 0.647123 3.63956 2.99488C1.83233 6.59543 1.83266 15.597 1.83266 15.597"
+                                  stroke="currentColor" stroke-width="1.80894" stroke-linecap="round"
+                                  stroke-linejoin="round"></path>
+                        </svg>
+                        <span class="mr-1 text-orange-dark fs15">نام دسته</span>
+                    </div>
+                    <!--title-->
+                    <h5 class="mt-3 pl-2">
+                        <a href="" class="font-weight-bold text-Purple-dark w-space lh-1-6 fs22">
+                            عنوان در این قسمت نمایش داده خوهد شد
+                        </a>
+                    </h5>
+                    <div class="text-justify fs14 pl-2">
+                        آموزش php mvc سعی دارد قدم به قدم و در قالب ساخت یک فریمورک از صفر کار با الگو mvc
+                        را به شکل
+                        کامل به شما آموزش دهد.
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-4">
+                <div class="parent-mv-box bg-white border-radios-10 p-4">
+                    <a href="">
+                        <img src="img/asxasx.jpg" class="w-100 border-radios-10 object-cover" alt="">
+                    </a>
+                    <!--date & category-->
+                    <div class="mt-3">
+                        <svg class="text-orange-dark -ver-4" width="18" height="18" viewBox="0 0 24 24"
+                             fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M12.1792 23.9333C2.54046 23.9333 0.474609 21.8674 0.474609 12.2287C0.474609 2.59002 2.54046 0.52417 12.1792 0.52417C21.8178 0.52417 23.8837 2.59002 23.8837 12.2287C23.8837 21.8674 21.8178 23.9333 12.1792 23.9333ZM11.2038 6.37644C11.2038 5.83773 11.6405 5.40106 12.1792 5.40106C12.7178 5.40106 13.1545 5.83773 13.1545 6.37644V11.2533H18.0314C18.5701 11.2533 19.0068 11.69 19.0068 12.2287C19.0068 12.7674 18.5701 13.2041 18.0314 13.2041H12.1792C11.6405 13.2041 11.2038 12.7674 11.2038 12.2287V6.37644Z"
+                                  fill="currentColor"></path>
+                        </svg>
+                        <span class="mr-1 fs15 text-orange-dark">1401/1/2</span>
+
+                        <svg class="mr-4 text-orange-dark -ver-4" width="18" height="17" viewBox="0 0 23 22"
+                             fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M11.7915 11.0486C11.292 11.0486 10.887 11.4535 10.887 11.9531C10.887 12.4526 11.2919 12.8575 11.7915 12.8575L15.4209 12.8575C15.9205 12.8575 16.3254 12.4526 16.3254 11.9531C16.3254 11.4535 15.9205 11.0486 15.4209 11.0486L11.7915 11.0486ZM8.16228 14.6788C7.66276 14.6788 7.25781 15.0838 7.25781 15.5833C7.25781 16.0828 7.66276 16.4878 8.16228 16.4878L15.4212 16.4878C15.9207 16.4878 16.3257 16.0828 16.3257 15.5833C16.3257 15.0838 15.9207 14.6788 15.4212 14.6788L8.16228 14.6788Z"
+                                  fill="currentColor"></path>
+                            <path d="M16.3021 4.92382C15.3306 4.83267 14.2064 4.79518 12.9123 4.79518C4.92001 4.79518 3.00712 6.22507 2.07443 12.8965C1.93217 13.9141 1.84681 14.8097 1.83266 15.597M16.3021 4.92382C21.3305 5.39564 22.2667 7.30528 21.4851 12.8965C20.5524 19.568 18.6395 20.9979 10.6472 20.9979C3.87388 20.9979 1.75406 19.9709 1.83266 15.597M16.3021 4.92382C16.3021 4.92382 16.4398 4.09117 16.3021 2.99488C15.963 0.294405 4.81796 0.647123 3.63956 2.99488C1.83233 6.59543 1.83266 15.597 1.83266 15.597"
+                                  stroke="currentColor" stroke-width="1.80894" stroke-linecap="round"
+                                  stroke-linejoin="round"></path>
+                        </svg>
+                        <span class="mr-1 text-orange-dark fs15">نام دسته</span>
+                    </div>
+                    <!--title-->
+                    <h5 class="mt-3 pl-2">
+                        <a href="" class="font-weight-bold text-Purple-dark w-space lh-1-6 fs22">
+                            عنوان در این قسمت نمایش داده خوهد شد
+                        </a>
+                    </h5>
+                    <div class="text-justify fs14 pl-2">
+                        آموزش php mvc سعی دارد قدم به قدم و در قالب ساخت یک فریمورک از صفر کار با الگو mvc
+                        را به شکل
+                        کامل به شما آموزش دهد.
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-4">
+                <div class="parent-mv-box bg-white border-radios-10 p-4">
+                    <a href="">
+                        <img src="img/asxasx.jpg" class="w-100 border-radios-10 object-cover" alt="">
+                    </a>
+                    <!--date & category-->
+                    <div class="mt-3">
+                        <svg class="text-orange-dark -ver-4" width="18" height="18" viewBox="0 0 24 24"
+                             fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M12.1792 23.9333C2.54046 23.9333 0.474609 21.8674 0.474609 12.2287C0.474609 2.59002 2.54046 0.52417 12.1792 0.52417C21.8178 0.52417 23.8837 2.59002 23.8837 12.2287C23.8837 21.8674 21.8178 23.9333 12.1792 23.9333ZM11.2038 6.37644C11.2038 5.83773 11.6405 5.40106 12.1792 5.40106C12.7178 5.40106 13.1545 5.83773 13.1545 6.37644V11.2533H18.0314C18.5701 11.2533 19.0068 11.69 19.0068 12.2287C19.0068 12.7674 18.5701 13.2041 18.0314 13.2041H12.1792C11.6405 13.2041 11.2038 12.7674 11.2038 12.2287V6.37644Z"
+                                  fill="currentColor"></path>
+                        </svg>
+                        <span class="mr-1 fs15 text-orange-dark">1401/1/2</span>
+
+                        <svg class="mr-4 text-orange-dark -ver-4" width="18" height="17" viewBox="0 0 23 22"
+                             fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M11.7915 11.0486C11.292 11.0486 10.887 11.4535 10.887 11.9531C10.887 12.4526 11.2919 12.8575 11.7915 12.8575L15.4209 12.8575C15.9205 12.8575 16.3254 12.4526 16.3254 11.9531C16.3254 11.4535 15.9205 11.0486 15.4209 11.0486L11.7915 11.0486ZM8.16228 14.6788C7.66276 14.6788 7.25781 15.0838 7.25781 15.5833C7.25781 16.0828 7.66276 16.4878 8.16228 16.4878L15.4212 16.4878C15.9207 16.4878 16.3257 16.0828 16.3257 15.5833C16.3257 15.0838 15.9207 14.6788 15.4212 14.6788L8.16228 14.6788Z"
+                                  fill="currentColor"></path>
+                            <path d="M16.3021 4.92382C15.3306 4.83267 14.2064 4.79518 12.9123 4.79518C4.92001 4.79518 3.00712 6.22507 2.07443 12.8965C1.93217 13.9141 1.84681 14.8097 1.83266 15.597M16.3021 4.92382C21.3305 5.39564 22.2667 7.30528 21.4851 12.8965C20.5524 19.568 18.6395 20.9979 10.6472 20.9979C3.87388 20.9979 1.75406 19.9709 1.83266 15.597M16.3021 4.92382C16.3021 4.92382 16.4398 4.09117 16.3021 2.99488C15.963 0.294405 4.81796 0.647123 3.63956 2.99488C1.83233 6.59543 1.83266 15.597 1.83266 15.597"
+                                  stroke="currentColor" stroke-width="1.80894" stroke-linecap="round"
+                                  stroke-linejoin="round"></path>
+                        </svg>
+                        <span class="mr-1 text-orange-dark fs15">نام دسته</span>
+                    </div>
+                    <!--title-->
+                    <h5 class="mt-3 pl-2">
+                        <a href="" class="font-weight-bold text-Purple-dark w-space lh-1-6 fs22">
+                            عنوان در این قسمت نمایش داده خوهد شد
+                        </a>
+                    </h5>
+                    <div class="text-justify fs14 pl-2">
+                        آموزش php mvc سعی دارد قدم به قدم و در قالب ساخت یک فریمورک از صفر کار با الگو mvc
+                        را به شکل
+                        کامل به شما آموزش دهد.
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-4">
+                <div class="parent-mv-box bg-white border-radios-10 p-4">
+                    <a href="">
+                        <img src="img/asxasx.jpg" class="w-100 border-radios-10 object-cover" alt="">
+                    </a>
+                    <!--date & category-->
+                    <div class="mt-3">
+                        <svg class="text-orange-dark -ver-4" width="18" height="18" viewBox="0 0 24 24"
+                             fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M12.1792 23.9333C2.54046 23.9333 0.474609 21.8674 0.474609 12.2287C0.474609 2.59002 2.54046 0.52417 12.1792 0.52417C21.8178 0.52417 23.8837 2.59002 23.8837 12.2287C23.8837 21.8674 21.8178 23.9333 12.1792 23.9333ZM11.2038 6.37644C11.2038 5.83773 11.6405 5.40106 12.1792 5.40106C12.7178 5.40106 13.1545 5.83773 13.1545 6.37644V11.2533H18.0314C18.5701 11.2533 19.0068 11.69 19.0068 12.2287C19.0068 12.7674 18.5701 13.2041 18.0314 13.2041H12.1792C11.6405 13.2041 11.2038 12.7674 11.2038 12.2287V6.37644Z"
+                                  fill="currentColor"></path>
+                        </svg>
+                        <span class="mr-1 fs15 text-orange-dark">1401/1/2</span>
+
+                        <svg class="mr-4 text-orange-dark -ver-4" width="18" height="17" viewBox="0 0 23 22"
+                             fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M11.7915 11.0486C11.292 11.0486 10.887 11.4535 10.887 11.9531C10.887 12.4526 11.2919 12.8575 11.7915 12.8575L15.4209 12.8575C15.9205 12.8575 16.3254 12.4526 16.3254 11.9531C16.3254 11.4535 15.9205 11.0486 15.4209 11.0486L11.7915 11.0486ZM8.16228 14.6788C7.66276 14.6788 7.25781 15.0838 7.25781 15.5833C7.25781 16.0828 7.66276 16.4878 8.16228 16.4878L15.4212 16.4878C15.9207 16.4878 16.3257 16.0828 16.3257 15.5833C16.3257 15.0838 15.9207 14.6788 15.4212 14.6788L8.16228 14.6788Z"
+                                  fill="currentColor"></path>
+                            <path d="M16.3021 4.92382C15.3306 4.83267 14.2064 4.79518 12.9123 4.79518C4.92001 4.79518 3.00712 6.22507 2.07443 12.8965C1.93217 13.9141 1.84681 14.8097 1.83266 15.597M16.3021 4.92382C21.3305 5.39564 22.2667 7.30528 21.4851 12.8965C20.5524 19.568 18.6395 20.9979 10.6472 20.9979C3.87388 20.9979 1.75406 19.9709 1.83266 15.597M16.3021 4.92382C16.3021 4.92382 16.4398 4.09117 16.3021 2.99488C15.963 0.294405 4.81796 0.647123 3.63956 2.99488C1.83233 6.59543 1.83266 15.597 1.83266 15.597"
+                                  stroke="currentColor" stroke-width="1.80894" stroke-linecap="round"
+                                  stroke-linejoin="round"></path>
+                        </svg>
+                        <span class="mr-1 text-orange-dark fs15">نام دسته</span>
+                    </div>
+                    <!--title-->
+                    <h5 class="mt-3 pl-2">
+                        <a href="" class="font-weight-bold text-Purple-dark w-space lh-1-6 fs22">
+                            عنوان در این قسمت نمایش داده خوهد شد
+                        </a>
+                    </h5>
+                    <div class="text-justify fs14 pl-2">
+                        آموزش php mvc سعی دارد قدم به قدم و در قالب ساخت یک فریمورک از صفر کار با الگو mvc
+                        را به شکل
+                        کامل به شما آموزش دهد.
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-4">
+                <div class="parent-mv-box bg-white border-radios-10 p-4">
+                    <a href="">
+                        <img src="img/asxasx.jpg" class="w-100 border-radios-10 object-cover" alt="">
+                    </a>
+                    <!--date & category-->
+                    <div class="mt-3">
+                        <svg class="text-orange-dark -ver-4" width="18" height="18" viewBox="0 0 24 24"
+                             fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M12.1792 23.9333C2.54046 23.9333 0.474609 21.8674 0.474609 12.2287C0.474609 2.59002 2.54046 0.52417 12.1792 0.52417C21.8178 0.52417 23.8837 2.59002 23.8837 12.2287C23.8837 21.8674 21.8178 23.9333 12.1792 23.9333ZM11.2038 6.37644C11.2038 5.83773 11.6405 5.40106 12.1792 5.40106C12.7178 5.40106 13.1545 5.83773 13.1545 6.37644V11.2533H18.0314C18.5701 11.2533 19.0068 11.69 19.0068 12.2287C19.0068 12.7674 18.5701 13.2041 18.0314 13.2041H12.1792C11.6405 13.2041 11.2038 12.7674 11.2038 12.2287V6.37644Z"
+                                  fill="currentColor"></path>
+                        </svg>
+                        <span class="mr-1 fs15 text-orange-dark">1401/1/2</span>
+
+                        <svg class="mr-4 text-orange-dark -ver-4" width="18" height="17" viewBox="0 0 23 22"
+                             fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M11.7915 11.0486C11.292 11.0486 10.887 11.4535 10.887 11.9531C10.887 12.4526 11.2919 12.8575 11.7915 12.8575L15.4209 12.8575C15.9205 12.8575 16.3254 12.4526 16.3254 11.9531C16.3254 11.4535 15.9205 11.0486 15.4209 11.0486L11.7915 11.0486ZM8.16228 14.6788C7.66276 14.6788 7.25781 15.0838 7.25781 15.5833C7.25781 16.0828 7.66276 16.4878 8.16228 16.4878L15.4212 16.4878C15.9207 16.4878 16.3257 16.0828 16.3257 15.5833C16.3257 15.0838 15.9207 14.6788 15.4212 14.6788L8.16228 14.6788Z"
+                                  fill="currentColor"></path>
+                            <path d="M16.3021 4.92382C15.3306 4.83267 14.2064 4.79518 12.9123 4.79518C4.92001 4.79518 3.00712 6.22507 2.07443 12.8965C1.93217 13.9141 1.84681 14.8097 1.83266 15.597M16.3021 4.92382C21.3305 5.39564 22.2667 7.30528 21.4851 12.8965C20.5524 19.568 18.6395 20.9979 10.6472 20.9979C3.87388 20.9979 1.75406 19.9709 1.83266 15.597M16.3021 4.92382C16.3021 4.92382 16.4398 4.09117 16.3021 2.99488C15.963 0.294405 4.81796 0.647123 3.63956 2.99488C1.83233 6.59543 1.83266 15.597 1.83266 15.597"
+                                  stroke="currentColor" stroke-width="1.80894" stroke-linecap="round"
+                                  stroke-linejoin="round"></path>
+                        </svg>
+                        <span class="mr-1 text-orange-dark fs15">نام دسته</span>
+                    </div>
+                    <!--title-->
+                    <h5 class="mt-3 pl-2">
+                        <a href="" class="font-weight-bold text-Purple-dark w-space lh-1-6 fs22">
+                            عنوان در این قسمت نمایش داده خوهد شد
+                        </a>
+                    </h5>
+                    <div class="text-justify fs14 pl-2">
+                        آموزش php mvc سعی دارد قدم به قدم و در قالب ساخت یک فریمورک از صفر کار با الگو mvc
+                        را به شکل
+                        کامل به شما آموزش دهد.
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-4">
+                <div class="parent-mv-box bg-white border-radios-10 p-4">
+                    <a href="">
+                        <img src="img/asxasx.jpg" class="w-100 border-radios-10 object-cover" alt="">
+                    </a>
+                    <!--date & category-->
+                    <div class="mt-3">
+                        <svg class="text-orange-dark -ver-4" width="18" height="18" viewBox="0 0 24 24"
+                             fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M12.1792 23.9333C2.54046 23.9333 0.474609 21.8674 0.474609 12.2287C0.474609 2.59002 2.54046 0.52417 12.1792 0.52417C21.8178 0.52417 23.8837 2.59002 23.8837 12.2287C23.8837 21.8674 21.8178 23.9333 12.1792 23.9333ZM11.2038 6.37644C11.2038 5.83773 11.6405 5.40106 12.1792 5.40106C12.7178 5.40106 13.1545 5.83773 13.1545 6.37644V11.2533H18.0314C18.5701 11.2533 19.0068 11.69 19.0068 12.2287C19.0068 12.7674 18.5701 13.2041 18.0314 13.2041H12.1792C11.6405 13.2041 11.2038 12.7674 11.2038 12.2287V6.37644Z"
+                                  fill="currentColor"></path>
+                        </svg>
+                        <span class="mr-1 fs15 text-orange-dark">1401/1/2</span>
+
+                        <svg class="mr-4 text-orange-dark -ver-4" width="18" height="17" viewBox="0 0 23 22"
+                             fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M11.7915 11.0486C11.292 11.0486 10.887 11.4535 10.887 11.9531C10.887 12.4526 11.2919 12.8575 11.7915 12.8575L15.4209 12.8575C15.9205 12.8575 16.3254 12.4526 16.3254 11.9531C16.3254 11.4535 15.9205 11.0486 15.4209 11.0486L11.7915 11.0486ZM8.16228 14.6788C7.66276 14.6788 7.25781 15.0838 7.25781 15.5833C7.25781 16.0828 7.66276 16.4878 8.16228 16.4878L15.4212 16.4878C15.9207 16.4878 16.3257 16.0828 16.3257 15.5833C16.3257 15.0838 15.9207 14.6788 15.4212 14.6788L8.16228 14.6788Z"
+                                  fill="currentColor"></path>
+                            <path d="M16.3021 4.92382C15.3306 4.83267 14.2064 4.79518 12.9123 4.79518C4.92001 4.79518 3.00712 6.22507 2.07443 12.8965C1.93217 13.9141 1.84681 14.8097 1.83266 15.597M16.3021 4.92382C21.3305 5.39564 22.2667 7.30528 21.4851 12.8965C20.5524 19.568 18.6395 20.9979 10.6472 20.9979C3.87388 20.9979 1.75406 19.9709 1.83266 15.597M16.3021 4.92382C16.3021 4.92382 16.4398 4.09117 16.3021 2.99488C15.963 0.294405 4.81796 0.647123 3.63956 2.99488C1.83233 6.59543 1.83266 15.597 1.83266 15.597"
+                                  stroke="currentColor" stroke-width="1.80894" stroke-linecap="round"
+                                  stroke-linejoin="round"></path>
+                        </svg>
+                        <span class="mr-1 text-orange-dark fs15">نام دسته</span>
+                    </div>
+                    <!--title-->
+                    <h5 class="mt-3 pl-2">
+                        <a href="" class="font-weight-bold text-Purple-dark w-space lh-1-6 fs22">
+                            عنوان در این قسمت نمایش داده خوهد شد
+                        </a>
+                    </h5>
+                    <div class="text-justify fs14 pl-2">
+                        آموزش php mvc سعی دارد قدم به قدم و در قالب ساخت یک فریمورک از صفر کار با الگو mvc
+                        را به شکل
+                        کامل به شما آموزش دهد.
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-4">
+                <div class="parent-mv-box bg-white border-radios-10 p-4">
+                    <a href="">
+                        <img src="img/asxasx.jpg" class="w-100 border-radios-10 object-cover" alt="">
+                    </a>
+                    <!--date & category-->
+                    <div class="mt-3">
+                        <svg class="text-orange-dark -ver-4" width="18" height="18" viewBox="0 0 24 24"
+                             fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M12.1792 23.9333C2.54046 23.9333 0.474609 21.8674 0.474609 12.2287C0.474609 2.59002 2.54046 0.52417 12.1792 0.52417C21.8178 0.52417 23.8837 2.59002 23.8837 12.2287C23.8837 21.8674 21.8178 23.9333 12.1792 23.9333ZM11.2038 6.37644C11.2038 5.83773 11.6405 5.40106 12.1792 5.40106C12.7178 5.40106 13.1545 5.83773 13.1545 6.37644V11.2533H18.0314C18.5701 11.2533 19.0068 11.69 19.0068 12.2287C19.0068 12.7674 18.5701 13.2041 18.0314 13.2041H12.1792C11.6405 13.2041 11.2038 12.7674 11.2038 12.2287V6.37644Z"
+                                  fill="currentColor"></path>
+                        </svg>
+                        <span class="mr-1 fs15 text-orange-dark">1401/1/2</span>
+
+                        <svg class="mr-4 text-orange-dark -ver-4" width="18" height="17" viewBox="0 0 23 22"
+                             fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M11.7915 11.0486C11.292 11.0486 10.887 11.4535 10.887 11.9531C10.887 12.4526 11.2919 12.8575 11.7915 12.8575L15.4209 12.8575C15.9205 12.8575 16.3254 12.4526 16.3254 11.9531C16.3254 11.4535 15.9205 11.0486 15.4209 11.0486L11.7915 11.0486ZM8.16228 14.6788C7.66276 14.6788 7.25781 15.0838 7.25781 15.5833C7.25781 16.0828 7.66276 16.4878 8.16228 16.4878L15.4212 16.4878C15.9207 16.4878 16.3257 16.0828 16.3257 15.5833C16.3257 15.0838 15.9207 14.6788 15.4212 14.6788L8.16228 14.6788Z"
+                                  fill="currentColor"></path>
+                            <path d="M16.3021 4.92382C15.3306 4.83267 14.2064 4.79518 12.9123 4.79518C4.92001 4.79518 3.00712 6.22507 2.07443 12.8965C1.93217 13.9141 1.84681 14.8097 1.83266 15.597M16.3021 4.92382C21.3305 5.39564 22.2667 7.30528 21.4851 12.8965C20.5524 19.568 18.6395 20.9979 10.6472 20.9979C3.87388 20.9979 1.75406 19.9709 1.83266 15.597M16.3021 4.92382C16.3021 4.92382 16.4398 4.09117 16.3021 2.99488C15.963 0.294405 4.81796 0.647123 3.63956 2.99488C1.83233 6.59543 1.83266 15.597 1.83266 15.597"
+                                  stroke="currentColor" stroke-width="1.80894" stroke-linecap="round"
+                                  stroke-linejoin="round"></path>
+                        </svg>
+                        <span class="mr-1 text-orange-dark fs15">نام دسته</span>
+                    </div>
+                    <!--title-->
+                    <h5 class="mt-3 pl-2">
+                        <a href="" class="font-weight-bold text-Purple-dark w-space lh-1-6 fs22">
+                            عنوان در این قسمت نمایش داده خوهد شد
+                        </a>
+                    </h5>
+                    <div class="text-justify fs14 pl-2">
+                        آموزش php mvc سعی دارد قدم به قدم و در قالب ساخت یک فریمورک از صفر کار با الگو mvc
+                        را به شکل
+                        کامل به شما آموزش دهد.
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-4">
+                <div class="parent-mv-box bg-white border-radios-10 p-4">
+                    <a href="">
+                        <img src="img/asxasx.jpg" class="w-100 border-radios-10 object-cover" alt="">
+                    </a>
+                    <!--date & category-->
+                    <div class="mt-3">
+                        <svg class="text-orange-dark -ver-4" width="18" height="18" viewBox="0 0 24 24"
+                             fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M12.1792 23.9333C2.54046 23.9333 0.474609 21.8674 0.474609 12.2287C0.474609 2.59002 2.54046 0.52417 12.1792 0.52417C21.8178 0.52417 23.8837 2.59002 23.8837 12.2287C23.8837 21.8674 21.8178 23.9333 12.1792 23.9333ZM11.2038 6.37644C11.2038 5.83773 11.6405 5.40106 12.1792 5.40106C12.7178 5.40106 13.1545 5.83773 13.1545 6.37644V11.2533H18.0314C18.5701 11.2533 19.0068 11.69 19.0068 12.2287C19.0068 12.7674 18.5701 13.2041 18.0314 13.2041H12.1792C11.6405 13.2041 11.2038 12.7674 11.2038 12.2287V6.37644Z"
+                                  fill="currentColor"></path>
+                        </svg>
+                        <span class="mr-1 fs15 text-orange-dark">1401/1/2</span>
+
+                        <svg class="mr-4 text-orange-dark -ver-4" width="18" height="17" viewBox="0 0 23 22"
+                             fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M11.7915 11.0486C11.292 11.0486 10.887 11.4535 10.887 11.9531C10.887 12.4526 11.2919 12.8575 11.7915 12.8575L15.4209 12.8575C15.9205 12.8575 16.3254 12.4526 16.3254 11.9531C16.3254 11.4535 15.9205 11.0486 15.4209 11.0486L11.7915 11.0486ZM8.16228 14.6788C7.66276 14.6788 7.25781 15.0838 7.25781 15.5833C7.25781 16.0828 7.66276 16.4878 8.16228 16.4878L15.4212 16.4878C15.9207 16.4878 16.3257 16.0828 16.3257 15.5833C16.3257 15.0838 15.9207 14.6788 15.4212 14.6788L8.16228 14.6788Z"
+                                  fill="currentColor"></path>
+                            <path d="M16.3021 4.92382C15.3306 4.83267 14.2064 4.79518 12.9123 4.79518C4.92001 4.79518 3.00712 6.22507 2.07443 12.8965C1.93217 13.9141 1.84681 14.8097 1.83266 15.597M16.3021 4.92382C21.3305 5.39564 22.2667 7.30528 21.4851 12.8965C20.5524 19.568 18.6395 20.9979 10.6472 20.9979C3.87388 20.9979 1.75406 19.9709 1.83266 15.597M16.3021 4.92382C16.3021 4.92382 16.4398 4.09117 16.3021 2.99488C15.963 0.294405 4.81796 0.647123 3.63956 2.99488C1.83233 6.59543 1.83266 15.597 1.83266 15.597"
+                                  stroke="currentColor" stroke-width="1.80894" stroke-linecap="round"
+                                  stroke-linejoin="round"></path>
+                        </svg>
+                        <span class="mr-1 text-orange-dark fs15">نام دسته</span>
+                    </div>
+                    <!--title-->
+                    <h5 class="mt-3 pl-2">
+                        <a href="" class="font-weight-bold text-Purple-dark w-space lh-1-6 fs22">
+                            عنوان در این قسمت نمایش داده خوهد شد
+                        </a>
+                    </h5>
+                    <div class="text-justify fs14 pl-2">
+                        آموزش php mvc سعی دارد قدم به قدم و در قالب ساخت یک فریمورک از صفر کار با الگو mvc
+                        را به شکل
+                        کامل به شما آموزش دهد.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--pagination-->
+        <div class="row my-5 py-4">
+            <div class="col-12">
+                <div class="pagination d-flex justify-content-center">
+                    <ul>
+                        <li><a href="">قبلی</a></li>
+                        <li class="bg-pagination-active"><a href="">1</a></li>
+                        <li><a href="">2</a></li>
+                        <li><a href="">3</a></li>
+                        <li><a href="">4</a></li>
+                        <li><a href="">4</a></li>
+                        <li><a href="">4</a></li>
+                        <li><a href="">بعدی</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--footer-->
+<footer class="footer-back-img position-relative -z-index-0 mt-5">
+    <div class="container footer-content-p">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3 mt-4 px-4">
+                <img src="img/14.png" alt="">
+                <p class="fs15 mt-3 text-justify fw500 lh-2">
+                    راکت یکی از پرتلاش‌ترین و بروزترین وبسایت های آموزشی در سطح بروزترین مقالات و دوره‌های آموین برنامه
+                    نویسان جهان هدف ماست. راکت یکی از پرتلاش‌ترین و بروزترین وبسایت های آموزشی در سطح بروزترین مقالات و
+                    دوره‌های آموین برنامه
+                    نویسان جهان هدف ماست.
+                </p>
+                <div class="mt-4">
+                    <a href="">
+                        <img src="img/telegram%20(1).png" class="w50px" alt="">
+                        <img src="img/instagram-logo-80.png" class="mr-3 w50px" alt="">
+                        <img src="img/whatsapp.png" class="mr-3 w50px" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-6  col-lg-3 mt-4  px-4">
+                <h3 class="text-Purple-dark font-weight-bold fs22 comment-count position-relative pb-4">لینکهای
+                    مفید </h3>
+                <div class="footer-li-p mt-4">
+                    <ul>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3 mt-4 px-4">
+                <h3 class="text-Purple-dark font-weight-bold fs22 comment-count position-relative pb-4">بخش های
+                    سایت</h3>
+                <div class="footer-li-p mt-4">
+                    <ul>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mt-4 px-4">
+                <h3 class="text-Purple-dark font-weight-bold fs22 comment-count position-relative pb-4">عضویت در
+                    خبرنامه</h3>
+                <div class="mt-4">
+                    <div class="fs14">
+                        برای اطلاع از آخرین مقالات ایمیل خود را وراد نمایید...
+                    </div>
+                    <input type="text" class="register-get-news w-100 pr-2 border-0 border-radios-10 mt-3"
+                           placeholder="آدرس ایمیل">
+                    <a href="" class="d-block fs14 w-100 mt-3 text-center border-radios-10 send-btn-e-new text-white">ثبت
+                        ایمیل</a>
+
+                </div>
+            </div>
+            <div class="col-9 border-top mx-auto mt-5"></div>
+            <div class="text-center w-100 text-secondary mt-3">
+                Copyright © 2022 Design & Developed by
+                <span class="text-orange-dark">mahdi paykoub</span>
+            </div>
+
+        </div>
+        <img src="img/download7.png" class="position-absolute float-img10 rotation-animation d-none d-md-block" alt="">
+        <img src="img/download13.png" class="position-absolute float-img11 right-left-animation d-none d-md-block"
+             alt="">
+        <img src="img/download13.png" class="position-absolute float-img12 right-left-animation d-none d-md-block"
+             alt="">
+    </div>
+</footer>
+
+<!--jquery cdn-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<!--swiper-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<!--js-->
+<script src="js/js.js"></script>
+</body>
+</html>

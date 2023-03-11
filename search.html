@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--bootstrap 4 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--css & font-->
+    <link rel="stylesheet" href="css/css.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+<!--two deference whit main header
+1.font of top txt
+2.bottom of that
+-->
+<!--header-->
+<header class=" position-relative">
+    <!--top menu-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="top-menu-box w-100 d-flex mt-3">
+                    <!--left-->
+                    <div class="hamburger d-lg-none mr-3 cursor-pointer">
+                        <svg width="28" class="text-biscay-700 dark:text-white" height="28" viewBox="0 0 24 18"
+                             fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2.5H21.5M2 9H21.5M2 15.5H21.5" stroke="currentColor" stroke-width="3.65625"
+                                  stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <div class="left-menu mr-auto mr-lg-0">
+                        <div class="d-flex">
+                            <div class="logo-parent">
+                                <a href="">
+                                    <img src="img/14.png"
+                                         class="" alt="">
+                                </a>
+                            </div>
+                            <div class="links-parent">
+                                <!--close btn-->
+                                <div class="d-lg-none text-left ml-3 mt-3">
+                                    <svg class="close-btn cursor-pointer" width="18" height="18" viewBox="0 0 18 18"
+                                         fill="none">
+                                        <path d="M16 2L9 9M9 9L2 16M9 9L16 16M9 9L2 2" stroke="#353F53"
+                                              stroke-width="2.88235" stroke-linecap="round"
+                                              stroke-linejoin="round"></path>
+                                    </svg>
+                                </div>
+                                <!--logo-->
+                                <div class="text-center d-lg-none mt-2 logo-parent">
+                                    <img src="img/14.png"
+                                         width="70" height="70" alt="">
+                                </div>
+                                <!--search box-->
+                                <div class="parent-sm-search mx-3 my-3 d-lg-none">
+                                    <form action="" class="my-3">
+                                        <input type="text"
+                                               class="search-sm-inp border-radios-10 border-0 w-100 fs15 pr-2"
+                                               placeholder="دنبال چی میگردی؟">
+                                    </form>
+                                </div>
+                                <nav>
+                                    <ul>
+                                        <li><a href="">بیماری</a></li>
+                                        <li><a href="">بیماری</a></li>
+                                        <li>
+                                            <a href="">بیماری</a>
+                                            <ul>
+                                                <li><a href="">زیر منو</a></li>
+                                                <li><a href="">زیر منو</a></li>
+                                                <li><a href="">زیر منو</a></li>
+                                                <li><a href="">زیر منو</a></li>
+                                                <li><a href="">زیر منو</a></li>
+                                                <li><a href="">زیر منو</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="">بیماری</a>
+                                            <ul>
+                                                <li><a href="">زیر منو</a></li>
+                                                <li><a href="">زیر منو</a></li>
+                                                <li><a href="">زیر منو</a></li>
+                                                <li><a href="">زیر منو</a></li>
+                                                <li><a href="">زیر منو</a></li>
+                                                <li><a href="">زیر منو</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="">بیماری</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <!--right-->
+                    <div class="mr-auto mt-4-5 ml-4">
+                        <!--search-->
+                        <svg class="ml-3 -ver-7 cursor-pointer text-secondary d-none d-lg-inline" width="20"
+                             height="20"
+                             viewBox="0 0 16 17" fill="none">
+                            <circle cx="7.82495" cy="7.82492" r="6.74142" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round"></circle>
+                            <path d="M12.5137 12.8638L15.1568 15.4999" stroke="currentColor" stroke-width="1.5"
+                                  stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+
+                        <a href="" class="fs16 register-login-btn border-radios-10 text-white">
+                            <span class="d-none d-lg-inline">ورود|عضویت</span>
+                            <svg class="-ver-4 ml-1" width="23" height="15" viewBox="0 0 23 15" fill="#fff">
+                                <path d="M1.16786 6.02753C1.23926 5.95544 1.50598 5.65076 1.75653 5.39776C3.21811 3.81313 7.03437 1.22195 9.03073 0.428959C9.33382 0.302461 10.1003 0.0331419 10.5112 0.0140991C10.9032 0.0140991 11.2776 0.105232 11.6346 0.284778C12.0805 0.536415 12.4361 0.933592 12.6328 1.4015C12.7581 1.72523 12.9548 2.69777 12.9548 2.71545C13.1501 3.77776 13.2565 5.50521 13.2565 7.41493C13.2565 9.23215 13.1501 10.8889 12.9898 11.9689C12.9723 11.9879 12.7756 13.1944 12.5614 13.6079C12.1694 14.3642 11.4029 14.8321 10.5826 14.8321H10.5112C9.97638 14.8144 8.85292 14.3451 8.85292 14.3288C6.96297 13.5358 3.23697 11.0698 1.73902 9.43074C1.73902 9.43074 1.31604 9.00908 1.13284 8.74656C0.84726 8.36843 0.70447 7.90052 0.70447 7.43261C0.70447 6.9103 0.864772 6.42471 1.16786 6.02753"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+<!--search-->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12 mb-4">
+            <span class="text-secondary">نتیجه جستجو برای:</span>
+            <span class="fs28 font-weight-bold text-Purple-dark">سردرد</span>
+        </div>
+        <div class="col-12 mt-4">
+            <div class="box-select-type-p p-desc p-3 border-radios-10">
+                <button class="border-0 cursor-pointer border-radios-10 btn-for-t">
+                    <svg class="-ver-4 ml-2 text-white" width="17" height="20" viewBox="0 0 17 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M5.42574 14.39H10.8119C11.2178 14.39 11.5545 14.05 11.5545 13.64C11.5545 13.23 11.2178 12.9 10.8119 12.9H5.42574C5.0198 12.9 4.68317 13.23 4.68317 13.64C4.68317 14.05 5.0198 14.39 5.42574 14.39ZM8.77228 7.9H5.42574C5.0198 7.9 4.68317 8.24 4.68317 8.65C4.68317 9.06 5.0198 9.39 5.42574 9.39H8.77228C9.17822 9.39 9.51485 9.06 9.51485 8.65C9.51485 8.24 9.17822 7.9 8.77228 7.9ZM15.8381 7.02561C16.0708 7.02292 16.3242 7.02 16.5545 7.02C16.802 7.02 17 7.22 17 7.47V15.51C17 17.99 15.0099 20 12.5545 20H4.67327C2.09901 20 0 17.89 0 15.29V4.51C0 2.03 2 0 4.46535 0H9.75247C10.0099 0 10.2079 0.21 10.2079 0.46V3.68C10.2079 5.51 11.703 7.01 13.5149 7.02C13.9381 7.02 14.3112 7.02316 14.6377 7.02593C14.8917 7.02809 15.1175 7.03 15.3168 7.03C15.4578 7.03 15.6405 7.02789 15.8381 7.02561ZM16.1111 5.566C15.2972 5.569 14.3378 5.566 13.6477 5.559C12.5527 5.559 11.6507 4.648 11.6507 3.542V0.906C11.6507 0.475 12.1685 0.261 12.4646 0.572C13.0004 1.13476 13.7368 1.90834 14.4699 2.67837C15.2009 3.44632 15.9286 4.21074 16.4507 4.759C16.7398 5.062 16.5279 5.565 16.1111 5.566Z"></path>
+                    </svg>
+                    مقالات
+                    <span class="fs14">191</span>
+                </button>
+                <button class="border-0 cursor-pointer border-radios-10 mr-md-4 text-secondary bg-transparent out-l-n mt-4 my-md-0">
+                    <svg class="-ver-4 ml-2" width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M9.17476 13.2174H8.82505C6.42166 13.2174 4.47358 11.2927 4.47358 8.92033V4.29706C4.47358 1.92373 6.42166 0 8.82505 0H9.17476C11.5781 0 13.5272 1.92373 13.5272 4.29706V8.92033C13.5272 11.2927 11.5781 13.2174 9.17476 13.2174ZM15.5626 8.78287C15.5626 8.25386 15.9966 7.82626 16.5313 7.82626C17.066 7.82626 17.5 8.25386 17.5 8.78287C17.5 13.0866 14.2006 16.6404 9.9692 17.1178V19.0434C9.9692 19.5714 9.53522 20 9.00048 20C8.46478 20 8.03177 19.5714 8.03177 19.0434V17.1178C3.79945 16.6404 0.5 13.0866 0.5 8.78287C0.5 8.25386 0.933985 7.82626 1.46872 7.82626C2.00345 7.82626 2.43743 8.25386 2.43743 8.78287C2.43743 12.3558 5.38136 15.2629 9.00048 15.2629C12.6186 15.2629 15.5626 12.3558 15.5626 8.78287Z"></path>
+                    </svg>
+                    پادکست ها
+                    <span class="fs14">191</span>
+                </button>
+                <button class="border-radios-10 cursor-pointer border-0 mr-md-4 text-secondary bg-transparent out-l-n mt-4 my-md-0">
+                    <svg class="-ver-4 ml-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="currentColor" d="M11.4498 8.3782C12.6463 9.099 13.2446 9.4594 13.2446 10C13.2446 10.5406 12.6463 10.901 11.4498 11.6218L10.1036 12.4327C8.90703 13.1535 8.30873 13.5139 7.86001 13.2436C7.4113 12.9733 7.4113 12.2525 7.4113 10.8109V9.1891C7.4113 7.74751 7.4113 7.02671 7.86001 6.75641C8.30873 6.48611 8.90702 6.84651 10.1036 7.56731L11.4498 8.3782Z"></path>
+                        <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M10 20C1.765 20 0 18.235 0 10C0 1.765 1.765 0 10 0C18.235 0 20 1.765 20 10C20 18.235 18.235 20 10 20ZM12.3932 12.9992C12.9177 12.6835 13.4613 12.3563 13.859 12.0269C14.2997 11.6619 14.9113 11.0118 14.9113 10C14.9113 8.98824 14.2997 8.33809 13.859 7.97312C13.4613 7.64368 12.9178 7.31652 12.3933 7.00085L10.8787 6.08847C10.3559 5.77327 9.81146 5.44505 9.33646 5.24928C8.82012 5.03647 7.91194 4.77944 7.00002 5.32876C6.11465 5.86209 5.89412 6.75913 5.81734 7.29873C5.74423 7.81251 5.74442 8.45685 5.74461 9.09275V10.9072C5.74442 11.5431 5.74423 12.1875 5.81734 12.7013C5.89412 13.2409 6.11465 14.1379 7.00002 14.6712C7.91194 15.2206 8.82012 14.9635 9.33646 14.7507C9.81146 14.5549 10.3559 14.2267 10.8787 13.9115L12.3932 12.9992Z"></path>
+                    </svg>
+                    ویدیو ها
+                    <span class="fs14">191</span>
+                </button>
+
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 mt-4">
+            <div class="p-3 border-radios-10 bg-white related-post-p">
+                <a href="">
+                    <img src="img/download.jpg" class="w-100 border-radios-10" alt="">
+                    <div class="font-weight-bold text-Purple-dark mt-2">عنوان برای نمایش در این قسمت</div>
+                    <div class="d-flex mt-3 bt-1">
+                        <div class="d-flex mt-3">
+                            <span class="cats-save-i border-radios-5 d-flex p-1 cursor-pointer">
+                                        <svg width="14" height="14" class="text-Purple-light" fill="none" viewBox="0 0 10 12">
+                                            <path stroke="currentColor" d="M2.51974 10.651L2.51972 10.651L2.51551 10.654C2.00961 11.009 1.31115 10.6877 1.26272 10.0631C1.20578 9.32899 1.12994 7.98392 1.12995 6.02793V5.99265V5.99264C1.12994 5.21616 1.13036 4.53967 1.18575 3.97518C1.24191 3.40288 1.35849 2.89041 1.62915 2.47298C2.19514 1.60008 3.28533 1.34809 4.99817 1.34104C6.71301 1.33397 7.80474 1.58477 8.37131 2.46321C8.64158 2.88225 8.75804 3.39711 8.81416 3.97134C8.86955 4.538 8.86997 5.21625 8.86995 5.993V6.02794C8.86995 7.98392 8.7941 9.32899 8.73716 10.0631C8.68873 10.6877 7.99029 11.009 7.48439 10.654L7.48441 10.654L7.48016 10.651C7.03638 10.3475 6.6257 10.0207 6.30567 9.76593L6.29989 9.76133C6.15447 9.64555 6.02249 9.54047 5.91897 9.46373C5.7247 9.31973 5.56248 9.2214 5.41218 9.16087C5.24859 9.095 5.11648 9.08089 4.99995 9.08089C4.88342 9.08089 4.75131 9.095 4.58772 9.16088C4.43742 9.2214 4.2752 9.31973 4.08093 9.46373C3.97737 9.54049 3.8453 9.64565 3.69982 9.76147L3.69423 9.76592C3.3742 10.0207 2.96352 10.3475 2.51974 10.651Z" stroke-width="0.86" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path stroke="currentColor" d="M5.86 3.06262C6.29 3.06262 6.505 3.06099 6.8275 3.38265C7.15 3.70432 7.15 4.78095 7.15 5.21094" stroke-width="0.86" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </span>
+                            <span class="cast-like-i mr-2 border-radios-5 d-flex py-1 px-2 cursor-pointer">
+                                        <svg width="14" height="14" class="w-4 h-4 mb-0.5 ml-0.5" fill="none" viewBox="0 0 13 11" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="stroke-current transition duration-200 text-red-450 group-hover:text-white" d="M3.95035 1.229C4.81955 1.229 5.61243 1.66166 6.21284 2.15457C6.81326 1.66166 7.60614 1.229 8.47534 1.229C10.3497 1.229 11.8691 2.62275 11.8691 4.34192C11.8691 7.80824 7.92382 9.82702 6.62321 10.3984C6.36123 10.5134 6.06445 10.5134 5.80248 10.3984C4.50187 9.827 0.556602 7.80816 0.556602 4.34184C0.556602 2.62267 2.07603 1.229 3.95035 1.229Z" stroke="currentColor" stroke-width="0.761705"></path>
+                                        </svg>
+                                        <span class="fs12 text-secondary mr-1">12</span>
+                                    </span>
+                        </div>
+                        <div class="mr-auto mt-3">
+                            <svg class="ml-1 text-primary -ver-1" width="13" height="13" viewBox="0 0 10 10" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path class="fill-current transition duration-200 text-blue-700 group-hover:text-white" fill-rule="evenodd" clip-rule="evenodd" stroke-width="0.433333" d="M5.00525 4.99988C4.77513 4.99988 4.58858 5.18643 4.58858 5.41654C4.58858 5.64666 4.77513 5.83321 5.00525 5.83321L6.67725 5.83321C6.90737 5.83321 7.09392 5.64666 7.09392 5.41654C7.09392 5.18643 6.90737 4.99988 6.67725 4.99988H5.00525ZM3.3335 6.67224C3.10338 6.67224 2.91683 6.85879 2.91683 7.08891C2.91683 7.31903 3.10338 7.50557 3.3335 7.50557L6.6775 7.50557C6.90762 7.50557 7.09416 7.31903 7.09416 7.08891C7.09416 6.85879 6.90762 6.67224 6.6775 6.67224L3.3335 6.67224Z"></path>
+                                <path class="stroke-current transition duration-200 text-blue-700 group-hover:text-white" d="M7.08323 2.17834C6.6357 2.13634 6.1178 2.11907 5.52165 2.11907C1.83979 2.11907 0.958571 2.77779 0.528906 5.85116C0.46337 6.31993 0.424047 6.73253 0.41753 7.09518M7.08323 2.17834C9.3997 2.39569 9.83099 3.27541 9.47089 5.85116C9.04123 8.92452 8.16001 9.58323 4.47814 9.58323C1.35787 9.58323 0.381319 9.11014 0.41753 7.09518M7.08323 2.17834C7.08323 2.17834 7.14666 1.79476 7.08323 1.28972C6.92699 0.0456842 1.79278 0.208173 1.24992 1.28972C0.417377 2.9484 0.41753 7.09518 0.41753 7.09518" stroke-width="0.833333" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                            <span class="fs12 text-primary font-weight-bold">
+                                   5 دقیقه
+                                </span>
+                        </div>
+                    </div>
+                </a>
+                <div class="position-absolute bg-danger rounded-circle voice-arm">
+                    <svg class="text-white" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="currentColor" d="M11.4498 8.3782C12.6463 9.099 13.2446 9.4594 13.2446 10C13.2446 10.5406 12.6463 10.901 11.4498 11.6218L10.1036 12.4327C8.90703 13.1535 8.30873 13.5139 7.86001 13.2436C7.4113 12.9733 7.4113 12.2525 7.4113 10.8109V9.1891C7.4113 7.74751 7.4113 7.02671 7.86001 6.75641C8.30873 6.48611 8.90702 6.84651 10.1036 7.56731L11.4498 8.3782Z"></path>
+                        <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M10 20C1.765 20 0 18.235 0 10C0 1.765 1.765 0 10 0C18.235 0 20 1.765 20 10C20 18.235 18.235 20 10 20ZM12.3932 12.9992C12.9177 12.6835 13.4613 12.3563 13.859 12.0269C14.2997 11.6619 14.9113 11.0118 14.9113 10C14.9113 8.98824 14.2997 8.33809 13.859 7.97312C13.4613 7.64368 12.9178 7.31652 12.3933 7.00085L10.8787 6.08847C10.3559 5.77327 9.81146 5.44505 9.33646 5.24928C8.82012 5.03647 7.91194 4.77944 7.00002 5.32876C6.11465 5.86209 5.89412 6.75913 5.81734 7.29873C5.74423 7.81251 5.74442 8.45685 5.74461 9.09275V10.9072C5.74442 11.5431 5.74423 12.1875 5.81734 12.7013C5.89412 13.2409 6.11465 14.1379 7.00002 14.6712C7.91194 15.2206 8.82012 14.9635 9.33646 14.7507C9.81146 14.5549 10.3559 14.2267 10.8787 13.9115L12.3932 12.9992Z"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 mt-4">
+            <div class="p-3 border-radios-10 bg-white related-post-p">
+                <a href="">
+                    <img src="img/download.jpg" class="w-100 border-radios-10" alt="">
+                    <div class="font-weight-bold text-Purple-dark mt-2">عنوان برای نمایش در این قسمت</div>
+                    <div class="d-flex mt-3 bt-1">
+                        <div class="d-flex mt-3">
+                            <span class="cats-save-i border-radios-5 d-flex p-1 cursor-pointer">
+                                        <svg width="14" height="14" class="text-Purple-light" fill="none" viewBox="0 0 10 12">
+                                            <path stroke="currentColor" d="M2.51974 10.651L2.51972 10.651L2.51551 10.654C2.00961 11.009 1.31115 10.6877 1.26272 10.0631C1.20578 9.32899 1.12994 7.98392 1.12995 6.02793V5.99265V5.99264C1.12994 5.21616 1.13036 4.53967 1.18575 3.97518C1.24191 3.40288 1.35849 2.89041 1.62915 2.47298C2.19514 1.60008 3.28533 1.34809 4.99817 1.34104C6.71301 1.33397 7.80474 1.58477 8.37131 2.46321C8.64158 2.88225 8.75804 3.39711 8.81416 3.97134C8.86955 4.538 8.86997 5.21625 8.86995 5.993V6.02794C8.86995 7.98392 8.7941 9.32899 8.73716 10.0631C8.68873 10.6877 7.99029 11.009 7.48439 10.654L7.48441 10.654L7.48016 10.651C7.03638 10.3475 6.6257 10.0207 6.30567 9.76593L6.29989 9.76133C6.15447 9.64555 6.02249 9.54047 5.91897 9.46373C5.7247 9.31973 5.56248 9.2214 5.41218 9.16087C5.24859 9.095 5.11648 9.08089 4.99995 9.08089C4.88342 9.08089 4.75131 9.095 4.58772 9.16088C4.43742 9.2214 4.2752 9.31973 4.08093 9.46373C3.97737 9.54049 3.8453 9.64565 3.69982 9.76147L3.69423 9.76592C3.3742 10.0207 2.96352 10.3475 2.51974 10.651Z" stroke-width="0.86" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path stroke="currentColor" d="M5.86 3.06262C6.29 3.06262 6.505 3.06099 6.8275 3.38265C7.15 3.70432 7.15 4.78095 7.15 5.21094" stroke-width="0.86" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </span>
+                            <span class="cast-like-i mr-2 border-radios-5 d-flex py-1 px-2 cursor-pointer">
+                                        <svg width="14" height="14" class="w-4 h-4 mb-0.5 ml-0.5" fill="none" viewBox="0 0 13 11" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="stroke-current transition duration-200 text-red-450 group-hover:text-white" d="M3.95035 1.229C4.81955 1.229 5.61243 1.66166 6.21284 2.15457C6.81326 1.66166 7.60614 1.229 8.47534 1.229C10.3497 1.229 11.8691 2.62275 11.8691 4.34192C11.8691 7.80824 7.92382 9.82702 6.62321 10.3984C6.36123 10.5134 6.06445 10.5134 5.80248 10.3984C4.50187 9.827 0.556602 7.80816 0.556602 4.34184C0.556602 2.62267 2.07603 1.229 3.95035 1.229Z" stroke="currentColor" stroke-width="0.761705"></path>
+                                        </svg>
+                                        <span class="fs12 text-secondary mr-1">12</span>
+                                    </span>
+                        </div>
+                        <div class="mr-auto mt-3">
+                            <svg class="ml-1 text-primary -ver-1" width="13" height="13" viewBox="0 0 10 10" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path class="fill-current transition duration-200 text-blue-700 group-hover:text-white" fill-rule="evenodd" clip-rule="evenodd" stroke-width="0.433333" d="M5.00525 4.99988C4.77513 4.99988 4.58858 5.18643 4.58858 5.41654C4.58858 5.64666 4.77513 5.83321 5.00525 5.83321L6.67725 5.83321C6.90737 5.83321 7.09392 5.64666 7.09392 5.41654C7.09392 5.18643 6.90737 4.99988 6.67725 4.99988H5.00525ZM3.3335 6.67224C3.10338 6.67224 2.91683 6.85879 2.91683 7.08891C2.91683 7.31903 3.10338 7.50557 3.3335 7.50557L6.6775 7.50557C6.90762 7.50557 7.09416 7.31903 7.09416 7.08891C7.09416 6.85879 6.90762 6.67224 6.6775 6.67224L3.3335 6.67224Z"></path>
+                                <path class="stroke-current transition duration-200 text-blue-700 group-hover:text-white" d="M7.08323 2.17834C6.6357 2.13634 6.1178 2.11907 5.52165 2.11907C1.83979 2.11907 0.958571 2.77779 0.528906 5.85116C0.46337 6.31993 0.424047 6.73253 0.41753 7.09518M7.08323 2.17834C9.3997 2.39569 9.83099 3.27541 9.47089 5.85116C9.04123 8.92452 8.16001 9.58323 4.47814 9.58323C1.35787 9.58323 0.381319 9.11014 0.41753 7.09518M7.08323 2.17834C7.08323 2.17834 7.14666 1.79476 7.08323 1.28972C6.92699 0.0456842 1.79278 0.208173 1.24992 1.28972C0.417377 2.9484 0.41753 7.09518 0.41753 7.09518" stroke-width="0.833333" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                            <span class="fs12 text-primary font-weight-bold">
+                                   5 دقیقه
+                                </span>
+                        </div>
+                    </div>
+                </a>
+                <div class="position-absolute bg-primary rounded-circle voice-arm">
+                    <svg class="text-white" width="18" height="20" viewBox="0 0 18 20" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M9.17476 13.2174H8.82505C6.42166 13.2174 4.47358 11.2927 4.47358 8.92033V4.29706C4.47358 1.92373 6.42166 0 8.82505 0H9.17476C11.5781 0 13.5272 1.92373 13.5272 4.29706V8.92033C13.5272 11.2927 11.5781 13.2174 9.17476 13.2174ZM15.5626 8.78287C15.5626 8.25386 15.9966 7.82626 16.5313 7.82626C17.066 7.82626 17.5 8.25386 17.5 8.78287C17.5 13.0866 14.2006 16.6404 9.9692 17.1178V19.0434C9.9692 19.5714 9.53522 20 9.00048 20C8.46478 20 8.03177 19.5714 8.03177 19.0434V17.1178C3.79945 16.6404 0.5 13.0866 0.5 8.78287C0.5 8.25386 0.933985 7.82626 1.46872 7.82626C2.00345 7.82626 2.43743 8.25386 2.43743 8.78287C2.43743 12.3558 5.38136 15.2629 9.00048 15.2629C12.6186 15.2629 15.5626 12.3558 15.5626 8.78287Z"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 mt-4">
+            <div class="p-3 border-radios-10 bg-white related-post-p">
+                <a href="">
+                    <img src="img/download.jpg" class="w-100 border-radios-10" alt="">
+                    <div class="font-weight-bold text-Purple-dark mt-2">عنوان برای نمایش در این قسمت</div>
+                    <div class="d-flex mt-3 bt-1">
+                        <div class="d-flex mt-3">
+                            <span class="cats-save-i border-radios-5 d-flex p-1 cursor-pointer">
+                                        <svg width="14" height="14" class="text-Purple-light" fill="none" viewBox="0 0 10 12">
+                                            <path stroke="currentColor" d="M2.51974 10.651L2.51972 10.651L2.51551 10.654C2.00961 11.009 1.31115 10.6877 1.26272 10.0631C1.20578 9.32899 1.12994 7.98392 1.12995 6.02793V5.99265V5.99264C1.12994 5.21616 1.13036 4.53967 1.18575 3.97518C1.24191 3.40288 1.35849 2.89041 1.62915 2.47298C2.19514 1.60008 3.28533 1.34809 4.99817 1.34104C6.71301 1.33397 7.80474 1.58477 8.37131 2.46321C8.64158 2.88225 8.75804 3.39711 8.81416 3.97134C8.86955 4.538 8.86997 5.21625 8.86995 5.993V6.02794C8.86995 7.98392 8.7941 9.32899 8.73716 10.0631C8.68873 10.6877 7.99029 11.009 7.48439 10.654L7.48441 10.654L7.48016 10.651C7.03638 10.3475 6.6257 10.0207 6.30567 9.76593L6.29989 9.76133C6.15447 9.64555 6.02249 9.54047 5.91897 9.46373C5.7247 9.31973 5.56248 9.2214 5.41218 9.16087C5.24859 9.095 5.11648 9.08089 4.99995 9.08089C4.88342 9.08089 4.75131 9.095 4.58772 9.16088C4.43742 9.2214 4.2752 9.31973 4.08093 9.46373C3.97737 9.54049 3.8453 9.64565 3.69982 9.76147L3.69423 9.76592C3.3742 10.0207 2.96352 10.3475 2.51974 10.651Z" stroke-width="0.86" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path stroke="currentColor" d="M5.86 3.06262C6.29 3.06262 6.505 3.06099 6.8275 3.38265C7.15 3.70432 7.15 4.78095 7.15 5.21094" stroke-width="0.86" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </span>
+                            <span class="cast-like-i mr-2 border-radios-5 d-flex py-1 px-2 cursor-pointer">
+                                        <svg width="14" height="14" class="w-4 h-4 mb-0.5 ml-0.5" fill="none" viewBox="0 0 13 11" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="stroke-current transition duration-200 text-red-450 group-hover:text-white" d="M3.95035 1.229C4.81955 1.229 5.61243 1.66166 6.21284 2.15457C6.81326 1.66166 7.60614 1.229 8.47534 1.229C10.3497 1.229 11.8691 2.62275 11.8691 4.34192C11.8691 7.80824 7.92382 9.82702 6.62321 10.3984C6.36123 10.5134 6.06445 10.5134 5.80248 10.3984C4.50187 9.827 0.556602 7.80816 0.556602 4.34184C0.556602 2.62267 2.07603 1.229 3.95035 1.229Z" stroke="currentColor" stroke-width="0.761705"></path>
+                                        </svg>
+                                        <span class="fs12 text-secondary mr-1">12</span>
+                                    </span>
+                        </div>
+                        <div class="mr-auto mt-3">
+                            <svg class="ml-1 text-primary -ver-1" width="13" height="13" viewBox="0 0 10 10" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path class="fill-current transition duration-200 text-blue-700 group-hover:text-white" fill-rule="evenodd" clip-rule="evenodd" stroke-width="0.433333" d="M5.00525 4.99988C4.77513 4.99988 4.58858 5.18643 4.58858 5.41654C4.58858 5.64666 4.77513 5.83321 5.00525 5.83321L6.67725 5.83321C6.90737 5.83321 7.09392 5.64666 7.09392 5.41654C7.09392 5.18643 6.90737 4.99988 6.67725 4.99988H5.00525ZM3.3335 6.67224C3.10338 6.67224 2.91683 6.85879 2.91683 7.08891C2.91683 7.31903 3.10338 7.50557 3.3335 7.50557L6.6775 7.50557C6.90762 7.50557 7.09416 7.31903 7.09416 7.08891C7.09416 6.85879 6.90762 6.67224 6.6775 6.67224L3.3335 6.67224Z"></path>
+                                <path class="stroke-current transition duration-200 text-blue-700 group-hover:text-white" d="M7.08323 2.17834C6.6357 2.13634 6.1178 2.11907 5.52165 2.11907C1.83979 2.11907 0.958571 2.77779 0.528906 5.85116C0.46337 6.31993 0.424047 6.73253 0.41753 7.09518M7.08323 2.17834C9.3997 2.39569 9.83099 3.27541 9.47089 5.85116C9.04123 8.92452 8.16001 9.58323 4.47814 9.58323C1.35787 9.58323 0.381319 9.11014 0.41753 7.09518M7.08323 2.17834C7.08323 2.17834 7.14666 1.79476 7.08323 1.28972C6.92699 0.0456842 1.79278 0.208173 1.24992 1.28972C0.417377 2.9484 0.41753 7.09518 0.41753 7.09518" stroke-width="0.833333" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                            <span class="fs12 text-primary font-weight-bold">
+                                   5 دقیقه
+                                </span>
+                        </div>
+                    </div>
+                </a>
+                <div class="position-absolute bg-danger rounded-circle voice-arm">
+                    <svg class="text-white" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="currentColor" d="M11.4498 8.3782C12.6463 9.099 13.2446 9.4594 13.2446 10C13.2446 10.5406 12.6463 10.901 11.4498 11.6218L10.1036 12.4327C8.90703 13.1535 8.30873 13.5139 7.86001 13.2436C7.4113 12.9733 7.4113 12.2525 7.4113 10.8109V9.1891C7.4113 7.74751 7.4113 7.02671 7.86001 6.75641C8.30873 6.48611 8.90702 6.84651 10.1036 7.56731L11.4498 8.3782Z"></path>
+                        <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M10 20C1.765 20 0 18.235 0 10C0 1.765 1.765 0 10 0C18.235 0 20 1.765 20 10C20 18.235 18.235 20 10 20ZM12.3932 12.9992C12.9177 12.6835 13.4613 12.3563 13.859 12.0269C14.2997 11.6619 14.9113 11.0118 14.9113 10C14.9113 8.98824 14.2997 8.33809 13.859 7.97312C13.4613 7.64368 12.9178 7.31652 12.3933 7.00085L10.8787 6.08847C10.3559 5.77327 9.81146 5.44505 9.33646 5.24928C8.82012 5.03647 7.91194 4.77944 7.00002 5.32876C6.11465 5.86209 5.89412 6.75913 5.81734 7.29873C5.74423 7.81251 5.74442 8.45685 5.74461 9.09275V10.9072C5.74442 11.5431 5.74423 12.1875 5.81734 12.7013C5.89412 13.2409 6.11465 14.1379 7.00002 14.6712C7.91194 15.2206 8.82012 14.9635 9.33646 14.7507C9.81146 14.5549 10.3559 14.2267 10.8787 13.9115L12.3932 12.9992Z"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 mt-4">
+            <div class="p-3 border-radios-10 bg-white related-post-p">
+                <a href="">
+                    <img src="img/download.jpg" class="w-100 border-radios-10" alt="">
+                    <div class="font-weight-bold text-Purple-dark mt-2">عنوان برای نمایش در این قسمت</div>
+                    <div class="d-flex mt-3 bt-1">
+                        <div class="d-flex mt-3">
+                            <span class="cats-save-i border-radios-5 d-flex p-1 cursor-pointer">
+                                        <svg width="14" height="14" class="text-Purple-light" fill="none" viewBox="0 0 10 12">
+                                            <path stroke="currentColor" d="M2.51974 10.651L2.51972 10.651L2.51551 10.654C2.00961 11.009 1.31115 10.6877 1.26272 10.0631C1.20578 9.32899 1.12994 7.98392 1.12995 6.02793V5.99265V5.99264C1.12994 5.21616 1.13036 4.53967 1.18575 3.97518C1.24191 3.40288 1.35849 2.89041 1.62915 2.47298C2.19514 1.60008 3.28533 1.34809 4.99817 1.34104C6.71301 1.33397 7.80474 1.58477 8.37131 2.46321C8.64158 2.88225 8.75804 3.39711 8.81416 3.97134C8.86955 4.538 8.86997 5.21625 8.86995 5.993V6.02794C8.86995 7.98392 8.7941 9.32899 8.73716 10.0631C8.68873 10.6877 7.99029 11.009 7.48439 10.654L7.48441 10.654L7.48016 10.651C7.03638 10.3475 6.6257 10.0207 6.30567 9.76593L6.29989 9.76133C6.15447 9.64555 6.02249 9.54047 5.91897 9.46373C5.7247 9.31973 5.56248 9.2214 5.41218 9.16087C5.24859 9.095 5.11648 9.08089 4.99995 9.08089C4.88342 9.08089 4.75131 9.095 4.58772 9.16088C4.43742 9.2214 4.2752 9.31973 4.08093 9.46373C3.97737 9.54049 3.8453 9.64565 3.69982 9.76147L3.69423 9.76592C3.3742 10.0207 2.96352 10.3475 2.51974 10.651Z" stroke-width="0.86" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path stroke="currentColor" d="M5.86 3.06262C6.29 3.06262 6.505 3.06099 6.8275 3.38265C7.15 3.70432 7.15 4.78095 7.15 5.21094" stroke-width="0.86" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </span>
+                            <span class="cast-like-i mr-2 border-radios-5 d-flex py-1 px-2 cursor-pointer">
+                                        <svg width="14" height="14" class="w-4 h-4 mb-0.5 ml-0.5" fill="none" viewBox="0 0 13 11" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="stroke-current transition duration-200 text-red-450 group-hover:text-white" d="M3.95035 1.229C4.81955 1.229 5.61243 1.66166 6.21284 2.15457C6.81326 1.66166 7.60614 1.229 8.47534 1.229C10.3497 1.229 11.8691 2.62275 11.8691 4.34192C11.8691 7.80824 7.92382 9.82702 6.62321 10.3984C6.36123 10.5134 6.06445 10.5134 5.80248 10.3984C4.50187 9.827 0.556602 7.80816 0.556602 4.34184C0.556602 2.62267 2.07603 1.229 3.95035 1.229Z" stroke="currentColor" stroke-width="0.761705"></path>
+                                        </svg>
+                                        <span class="fs12 text-secondary mr-1">12</span>
+                                    </span>
+                        </div>
+                        <div class="mr-auto mt-3">
+                            <svg class="ml-1 text-primary -ver-1" width="13" height="13" viewBox="0 0 10 10" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path class="fill-current transition duration-200 text-blue-700 group-hover:text-white" fill-rule="evenodd" clip-rule="evenodd" stroke-width="0.433333" d="M5.00525 4.99988C4.77513 4.99988 4.58858 5.18643 4.58858 5.41654C4.58858 5.64666 4.77513 5.83321 5.00525 5.83321L6.67725 5.83321C6.90737 5.83321 7.09392 5.64666 7.09392 5.41654C7.09392 5.18643 6.90737 4.99988 6.67725 4.99988H5.00525ZM3.3335 6.67224C3.10338 6.67224 2.91683 6.85879 2.91683 7.08891C2.91683 7.31903 3.10338 7.50557 3.3335 7.50557L6.6775 7.50557C6.90762 7.50557 7.09416 7.31903 7.09416 7.08891C7.09416 6.85879 6.90762 6.67224 6.6775 6.67224L3.3335 6.67224Z"></path>
+                                <path class="stroke-current transition duration-200 text-blue-700 group-hover:text-white" d="M7.08323 2.17834C6.6357 2.13634 6.1178 2.11907 5.52165 2.11907C1.83979 2.11907 0.958571 2.77779 0.528906 5.85116C0.46337 6.31993 0.424047 6.73253 0.41753 7.09518M7.08323 2.17834C9.3997 2.39569 9.83099 3.27541 9.47089 5.85116C9.04123 8.92452 8.16001 9.58323 4.47814 9.58323C1.35787 9.58323 0.381319 9.11014 0.41753 7.09518M7.08323 2.17834C7.08323 2.17834 7.14666 1.79476 7.08323 1.28972C6.92699 0.0456842 1.79278 0.208173 1.24992 1.28972C0.417377 2.9484 0.41753 7.09518 0.41753 7.09518" stroke-width="0.833333" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                            <span class="fs12 text-primary font-weight-bold">
+                                   5 دقیقه
+                                </span>
+                        </div>
+                    </div>
+                </a>
+                <div class="position-absolute bg-primary rounded-circle voice-arm">
+                    <svg class="text-white" width="18" height="20" viewBox="0 0 18 20" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M9.17476 13.2174H8.82505C6.42166 13.2174 4.47358 11.2927 4.47358 8.92033V4.29706C4.47358 1.92373 6.42166 0 8.82505 0H9.17476C11.5781 0 13.5272 1.92373 13.5272 4.29706V8.92033C13.5272 11.2927 11.5781 13.2174 9.17476 13.2174ZM15.5626 8.78287C15.5626 8.25386 15.9966 7.82626 16.5313 7.82626C17.066 7.82626 17.5 8.25386 17.5 8.78287C17.5 13.0866 14.2006 16.6404 9.9692 17.1178V19.0434C9.9692 19.5714 9.53522 20 9.00048 20C8.46478 20 8.03177 19.5714 8.03177 19.0434V17.1178C3.79945 16.6404 0.5 13.0866 0.5 8.78287C0.5 8.25386 0.933985 7.82626 1.46872 7.82626C2.00345 7.82626 2.43743 8.25386 2.43743 8.78287C2.43743 12.3558 5.38136 15.2629 9.00048 15.2629C12.6186 15.2629 15.5626 12.3558 15.5626 8.78287Z"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 mt-4">
+            <div class="p-3 border-radios-10 bg-white related-post-p">
+                <a href="">
+                    <img src="img/download.jpg" class="w-100 border-radios-10" alt="">
+                    <div class="font-weight-bold text-Purple-dark mt-2">عنوان برای نمایش در این قسمت</div>
+                    <div class="d-flex mt-3 bt-1">
+                        <div class="d-flex mt-3">
+                            <span class="cats-save-i border-radios-5 d-flex p-1 cursor-pointer">
+                                        <svg width="14" height="14" class="text-Purple-light" fill="none" viewBox="0 0 10 12">
+                                            <path stroke="currentColor" d="M2.51974 10.651L2.51972 10.651L2.51551 10.654C2.00961 11.009 1.31115 10.6877 1.26272 10.0631C1.20578 9.32899 1.12994 7.98392 1.12995 6.02793V5.99265V5.99264C1.12994 5.21616 1.13036 4.53967 1.18575 3.97518C1.24191 3.40288 1.35849 2.89041 1.62915 2.47298C2.19514 1.60008 3.28533 1.34809 4.99817 1.34104C6.71301 1.33397 7.80474 1.58477 8.37131 2.46321C8.64158 2.88225 8.75804 3.39711 8.81416 3.97134C8.86955 4.538 8.86997 5.21625 8.86995 5.993V6.02794C8.86995 7.98392 8.7941 9.32899 8.73716 10.0631C8.68873 10.6877 7.99029 11.009 7.48439 10.654L7.48441 10.654L7.48016 10.651C7.03638 10.3475 6.6257 10.0207 6.30567 9.76593L6.29989 9.76133C6.15447 9.64555 6.02249 9.54047 5.91897 9.46373C5.7247 9.31973 5.56248 9.2214 5.41218 9.16087C5.24859 9.095 5.11648 9.08089 4.99995 9.08089C4.88342 9.08089 4.75131 9.095 4.58772 9.16088C4.43742 9.2214 4.2752 9.31973 4.08093 9.46373C3.97737 9.54049 3.8453 9.64565 3.69982 9.76147L3.69423 9.76592C3.3742 10.0207 2.96352 10.3475 2.51974 10.651Z" stroke-width="0.86" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path stroke="currentColor" d="M5.86 3.06262C6.29 3.06262 6.505 3.06099 6.8275 3.38265C7.15 3.70432 7.15 4.78095 7.15 5.21094" stroke-width="0.86" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </span>
+                            <span class="cast-like-i mr-2 border-radios-5 d-flex py-1 px-2 cursor-pointer">
+                                        <svg width="14" height="14" class="w-4 h-4 mb-0.5 ml-0.5" fill="none" viewBox="0 0 13 11" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="stroke-current transition duration-200 text-red-450 group-hover:text-white" d="M3.95035 1.229C4.81955 1.229 5.61243 1.66166 6.21284 2.15457C6.81326 1.66166 7.60614 1.229 8.47534 1.229C10.3497 1.229 11.8691 2.62275 11.8691 4.34192C11.8691 7.80824 7.92382 9.82702 6.62321 10.3984C6.36123 10.5134 6.06445 10.5134 5.80248 10.3984C4.50187 9.827 0.556602 7.80816 0.556602 4.34184C0.556602 2.62267 2.07603 1.229 3.95035 1.229Z" stroke="currentColor" stroke-width="0.761705"></path>
+                                        </svg>
+                                        <span class="fs12 text-secondary mr-1">12</span>
+                                    </span>
+                        </div>
+                        <div class="mr-auto mt-3">
+                            <svg class="ml-1 text-primary -ver-1" width="13" height="13" viewBox="0 0 10 10" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path class="fill-current transition duration-200 text-blue-700 group-hover:text-white" fill-rule="evenodd" clip-rule="evenodd" stroke-width="0.433333" d="M5.00525 4.99988C4.77513 4.99988 4.58858 5.18643 4.58858 5.41654C4.58858 5.64666 4.77513 5.83321 5.00525 5.83321L6.67725 5.83321C6.90737 5.83321 7.09392 5.64666 7.09392 5.41654C7.09392 5.18643 6.90737 4.99988 6.67725 4.99988H5.00525ZM3.3335 6.67224C3.10338 6.67224 2.91683 6.85879 2.91683 7.08891C2.91683 7.31903 3.10338 7.50557 3.3335 7.50557L6.6775 7.50557C6.90762 7.50557 7.09416 7.31903 7.09416 7.08891C7.09416 6.85879 6.90762 6.67224 6.6775 6.67224L3.3335 6.67224Z"></path>
+                                <path class="stroke-current transition duration-200 text-blue-700 group-hover:text-white" d="M7.08323 2.17834C6.6357 2.13634 6.1178 2.11907 5.52165 2.11907C1.83979 2.11907 0.958571 2.77779 0.528906 5.85116C0.46337 6.31993 0.424047 6.73253 0.41753 7.09518M7.08323 2.17834C9.3997 2.39569 9.83099 3.27541 9.47089 5.85116C9.04123 8.92452 8.16001 9.58323 4.47814 9.58323C1.35787 9.58323 0.381319 9.11014 0.41753 7.09518M7.08323 2.17834C7.08323 2.17834 7.14666 1.79476 7.08323 1.28972C6.92699 0.0456842 1.79278 0.208173 1.24992 1.28972C0.417377 2.9484 0.41753 7.09518 0.41753 7.09518" stroke-width="0.833333" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                            <span class="fs12 text-primary font-weight-bold">
+                                   5 دقیقه
+                                </span>
+                        </div>
+                    </div>
+                </a>
+                <div class="position-absolute bg-primary rounded-circle voice-arm">
+                    <svg class="text-white" width="18" height="20" viewBox="0 0 18 20" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M9.17476 13.2174H8.82505C6.42166 13.2174 4.47358 11.2927 4.47358 8.92033V4.29706C4.47358 1.92373 6.42166 0 8.82505 0H9.17476C11.5781 0 13.5272 1.92373 13.5272 4.29706V8.92033C13.5272 11.2927 11.5781 13.2174 9.17476 13.2174ZM15.5626 8.78287C15.5626 8.25386 15.9966 7.82626 16.5313 7.82626C17.066 7.82626 17.5 8.25386 17.5 8.78287C17.5 13.0866 14.2006 16.6404 9.9692 17.1178V19.0434C9.9692 19.5714 9.53522 20 9.00048 20C8.46478 20 8.03177 19.5714 8.03177 19.0434V17.1178C3.79945 16.6404 0.5 13.0866 0.5 8.78287C0.5 8.25386 0.933985 7.82626 1.46872 7.82626C2.00345 7.82626 2.43743 8.25386 2.43743 8.78287C2.43743 12.3558 5.38136 15.2629 9.00048 15.2629C12.6186 15.2629 15.5626 12.3558 15.5626 8.78287Z"></path>
+                    </svg>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 mt-4">
+            <div class="p-3 border-radios-10 bg-white related-post-p">
+                <a href="">
+                    <img src="img/download.jpg" class="w-100 border-radios-10" alt="">
+                    <div class="font-weight-bold text-Purple-dark mt-2">عنوان برای نمایش در این قسمت</div>
+                    <div class="d-flex mt-3 bt-1">
+                        <div class="d-flex mt-3">
+                            <span class="cats-save-i border-radios-5 d-flex p-1 cursor-pointer">
+                                        <svg width="14" height="14" class="text-Purple-light" fill="none" viewBox="0 0 10 12">
+                                            <path stroke="currentColor" d="M2.51974 10.651L2.51972 10.651L2.51551 10.654C2.00961 11.009 1.31115 10.6877 1.26272 10.0631C1.20578 9.32899 1.12994 7.98392 1.12995 6.02793V5.99265V5.99264C1.12994 5.21616 1.13036 4.53967 1.18575 3.97518C1.24191 3.40288 1.35849 2.89041 1.62915 2.47298C2.19514 1.60008 3.28533 1.34809 4.99817 1.34104C6.71301 1.33397 7.80474 1.58477 8.37131 2.46321C8.64158 2.88225 8.75804 3.39711 8.81416 3.97134C8.86955 4.538 8.86997 5.21625 8.86995 5.993V6.02794C8.86995 7.98392 8.7941 9.32899 8.73716 10.0631C8.68873 10.6877 7.99029 11.009 7.48439 10.654L7.48441 10.654L7.48016 10.651C7.03638 10.3475 6.6257 10.0207 6.30567 9.76593L6.29989 9.76133C6.15447 9.64555 6.02249 9.54047 5.91897 9.46373C5.7247 9.31973 5.56248 9.2214 5.41218 9.16087C5.24859 9.095 5.11648 9.08089 4.99995 9.08089C4.88342 9.08089 4.75131 9.095 4.58772 9.16088C4.43742 9.2214 4.2752 9.31973 4.08093 9.46373C3.97737 9.54049 3.8453 9.64565 3.69982 9.76147L3.69423 9.76592C3.3742 10.0207 2.96352 10.3475 2.51974 10.651Z" stroke-width="0.86" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path stroke="currentColor" d="M5.86 3.06262C6.29 3.06262 6.505 3.06099 6.8275 3.38265C7.15 3.70432 7.15 4.78095 7.15 5.21094" stroke-width="0.86" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </span>
+                            <span class="cast-like-i mr-2 border-radios-5 d-flex py-1 px-2 cursor-pointer">
+                                        <svg width="14" height="14" class="w-4 h-4 mb-0.5 ml-0.5" fill="none" viewBox="0 0 13 11" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="stroke-current transition duration-200 text-red-450 group-hover:text-white" d="M3.95035 1.229C4.81955 1.229 5.61243 1.66166 6.21284 2.15457C6.81326 1.66166 7.60614 1.229 8.47534 1.229C10.3497 1.229 11.8691 2.62275 11.8691 4.34192C11.8691 7.80824 7.92382 9.82702 6.62321 10.3984C6.36123 10.5134 6.06445 10.5134 5.80248 10.3984C4.50187 9.827 0.556602 7.80816 0.556602 4.34184C0.556602 2.62267 2.07603 1.229 3.95035 1.229Z" stroke="currentColor" stroke-width="0.761705"></path>
+                                        </svg>
+                                        <span class="fs12 text-secondary mr-1">12</span>
+                                    </span>
+                        </div>
+                        <div class="mr-auto mt-3">
+                            <svg class="ml-1 text-primary -ver-1" width="13" height="13" viewBox="0 0 10 10" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path class="fill-current transition duration-200 text-blue-700 group-hover:text-white" fill-rule="evenodd" clip-rule="evenodd" stroke-width="0.433333" d="M5.00525 4.99988C4.77513 4.99988 4.58858 5.18643 4.58858 5.41654C4.58858 5.64666 4.77513 5.83321 5.00525 5.83321L6.67725 5.83321C6.90737 5.83321 7.09392 5.64666 7.09392 5.41654C7.09392 5.18643 6.90737 4.99988 6.67725 4.99988H5.00525ZM3.3335 6.67224C3.10338 6.67224 2.91683 6.85879 2.91683 7.08891C2.91683 7.31903 3.10338 7.50557 3.3335 7.50557L6.6775 7.50557C6.90762 7.50557 7.09416 7.31903 7.09416 7.08891C7.09416 6.85879 6.90762 6.67224 6.6775 6.67224L3.3335 6.67224Z"></path>
+                                <path class="stroke-current transition duration-200 text-blue-700 group-hover:text-white" d="M7.08323 2.17834C6.6357 2.13634 6.1178 2.11907 5.52165 2.11907C1.83979 2.11907 0.958571 2.77779 0.528906 5.85116C0.46337 6.31993 0.424047 6.73253 0.41753 7.09518M7.08323 2.17834C9.3997 2.39569 9.83099 3.27541 9.47089 5.85116C9.04123 8.92452 8.16001 9.58323 4.47814 9.58323C1.35787 9.58323 0.381319 9.11014 0.41753 7.09518M7.08323 2.17834C7.08323 2.17834 7.14666 1.79476 7.08323 1.28972C6.92699 0.0456842 1.79278 0.208173 1.24992 1.28972C0.417377 2.9484 0.41753 7.09518 0.41753 7.09518" stroke-width="0.833333" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                            <span class="fs12 text-primary font-weight-bold">
+                                   5 دقیقه
+                                </span>
+                        </div>
+                    </div>
+                </a>
+                <div class="position-absolute bg-primary rounded-circle voice-arm">
+                    <svg class="text-white" width="18" height="20" viewBox="0 0 18 20" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M9.17476 13.2174H8.82505C6.42166 13.2174 4.47358 11.2927 4.47358 8.92033V4.29706C4.47358 1.92373 6.42166 0 8.82505 0H9.17476C11.5781 0 13.5272 1.92373 13.5272 4.29706V8.92033C13.5272 11.2927 11.5781 13.2174 9.17476 13.2174ZM15.5626 8.78287C15.5626 8.25386 15.9966 7.82626 16.5313 7.82626C17.066 7.82626 17.5 8.25386 17.5 8.78287C17.5 13.0866 14.2006 16.6404 9.9692 17.1178V19.0434C9.9692 19.5714 9.53522 20 9.00048 20C8.46478 20 8.03177 19.5714 8.03177 19.0434V17.1178C3.79945 16.6404 0.5 13.0866 0.5 8.78287C0.5 8.25386 0.933985 7.82626 1.46872 7.82626C2.00345 7.82626 2.43743 8.25386 2.43743 8.78287C2.43743 12.3558 5.38136 15.2629 9.00048 15.2629C12.6186 15.2629 15.5626 12.3558 15.5626 8.78287Z"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--pagination-->
+    <div class="row my-5 py-4">
+        <div class="col-12">
+            <div class="pagination d-flex justify-content-center">
+                <ul>
+                    <li><a href="">قبلی</a></li>
+                    <li class="bg-pagination-active"><a href="">1</a></li>
+                    <li><a href="">2</a></li>
+                    <li><a href="">3</a></li>
+                    <li><a href="">4</a></li>
+                    <li><a href="">4</a></li>
+                    <li><a href="">4</a></li>
+                    <li><a href="">بعدی</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--footer-->
+<footer class="footer-back-img position-relative -z-index-0 mt-5">
+    <div class="container footer-content-p">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3 mt-4 px-4">
+                <img src="img/14.png" alt="">
+                <p class="fs15 mt-3 text-justify fw500 lh-2">
+                    راکت یکی از پرتلاش‌ترین و بروزترین وبسایت های آموزشی در سطح بروزترین مقالات و دوره‌های آموین برنامه
+                    نویسان جهان هدف ماست. راکت یکی از پرتلاش‌ترین و بروزترین وبسایت های آموزشی در سطح بروزترین مقالات و
+                    دوره‌های آموین برنامه
+                    نویسان جهان هدف ماست.
+                </p>
+                <div class="mt-4">
+                    <a href="">
+                        <img src="img/telegram%20(1).png" class="w50px" alt="">
+                        <img src="img/instagram-logo-80.png" class="mr-3 w50px" alt="">
+                        <img src="img/whatsapp.png" class="mr-3 w50px" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-6  col-lg-3 mt-4  px-4">
+                <h3 class="text-Purple-dark font-weight-bold fs22 comment-count position-relative pb-4">لینکهای
+                    مفید </h3>
+                <div class="footer-li-p mt-4">
+                    <ul>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3 mt-4 px-4">
+                <h3 class="text-Purple-dark font-weight-bold fs22 comment-count position-relative pb-4">بخش های
+                    سایت</h3>
+                <div class="footer-li-p mt-4">
+                    <ul>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+                        <li><a href="">لینک ها</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mt-4 px-4">
+                <h3 class="text-Purple-dark font-weight-bold fs22 comment-count position-relative pb-4">عضویت در
+                    خبرنامه</h3>
+                <div class="mt-4">
+                    <div class="fs14">
+                        برای اطلاع از آخرین مقالات ایمیل خود را وراد نمایید...
+                    </div>
+                    <input type="text" class="register-get-news w-100 pr-2 border-0 border-radios-10 mt-3"
+                           placeholder="آدرس ایمیل">
+                    <a href="" class="d-block fs14 w-100 mt-3 text-center border-radios-10 send-btn-e-new text-white">ثبت
+                        ایمیل</a>
+
+                </div>
+            </div>
+            <div class="col-9 border-top mx-auto mt-5"></div>
+            <div class="text-center w-100 text-secondary mt-3">
+                Copyright © 2022 Design & Developed by
+                <span class="text-orange-dark">mahdi paykoub</span>
+            </div>
+
+        </div>
+        <img src="img/download7.png" class="position-absolute float-img10 rotation-animation d-none d-md-block" alt="">
+        <img src="img/download13.png" class="position-absolute float-img11 right-left-animation d-none d-md-block"
+             alt="">
+        <img src="img/download13.png" class="position-absolute float-img12 right-left-animation d-none d-md-block"
+             alt="">
+    </div>
+</footer>
+<!--jquery cdn-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<!--js-->
+<script src="js/js.js"></script>
+</body>
+</html>
